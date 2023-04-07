@@ -1,0 +1,20 @@
+.slick-track {
+  display: flex !important;
+}
+
+.slick-slide {
+  max-height: 100vh;
+  width: 100vw;
+}
+
+.slick-slide > div {
+  max-height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.slick-slide > div > img {
+  max-height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}

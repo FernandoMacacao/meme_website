@@ -1,0 +1,20 @@
+{
+  "en": {
+    "links": [
+      { "name": "Home", "to": "" },
+      { "name": "Accommodations", "to": "accommodations" },
+      { "name": "Region", "to": "region" },
+      { "name": "Sustainability Policy", "to": "policy" },
+      { "name": "Contacts", "to": "contacts" }
+    ]
+  },
+  "pt": {
+    "links": [
+      { "name": "Início", "to": "" },
+      { "name": "Alojamentos", "to": "accommodations" },
+      { "name": "Região", "to": "region" },
+      { "name": "Política de Sustentabilidade", "to": "policy" },
+      { "name": "Contactos", "to": "contacts" }
+    ]
+  }
+}

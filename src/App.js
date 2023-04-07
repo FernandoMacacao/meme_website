@@ -1,14 +1,20 @@
-import { ThemeProvider } from "@mui/material";
+import { Box, ThemeProvider } from "@mui/material";
 import "./App.css";
-import { theme, Navbar } from "./common/index";
+import { theme, Navbar, LanguageButton, WhatsappButton } from "./common/index";
 import { LanguageContextProvider } from "./configuration/app-context-manager/LanguageContext";
+import { RoutesManager } from "./configuration/app-routes-manager/RoutesManager";
+import { BrowserRouter as Router } from "react-router-dom";
 
 function App() {
   return (
     <ThemeProvider theme={theme}>
       <LanguageContextProvider>
-        <Navbar />
-        App Works!
+        <Router>
+          <Navbar />
+          <RoutesManager />
+        </Router>
+        <LanguageButton />
+        <WhatsappButton />
       </LanguageContextProvider>
     </ThemeProvider>
   );
