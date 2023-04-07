@@ -1,4 +1,4 @@
-import { Box, ThemeProvider } from "@mui/material";
+import { ThemeProvider } from "@mui/material";
 import "./App.css";
 import { theme, Navbar, LanguageButton, WhatsappButton } from "./common/index";
 import { LanguageContextProvider } from "./configuration/app-context-manager/LanguageContext";

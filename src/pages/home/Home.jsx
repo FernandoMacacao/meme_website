@@ -3,6 +3,8 @@ import { Hero } from "./components/Hero";
 import { Banner } from "./components/Banner";
 import { Info } from "./components/Info";
 import { Accommodations } from "./components/Accommodations";
+import { Details } from "./components/Details";
+import { MessageForm } from "common";
 
 const data = [
   {
@@ -34,6 +36,9 @@ export const Home = () => {
         text="Pellentesque orci eros, accumsan vitae facilisis ut, pharetra vitae enim. Aliquam tempus blandit placerat. Nam suscipit fermentum neque, non congue ligula iaculis in. Ut tempor auctor arcu. Sed mauris dolor, ullamcorper quis vulputate eu, gravida quis eros. Praesent feugiat ornare dui non consequat."
       />
       <Accommodations data={data} />
+      <Details />
+      <Banner hasImage image="serra.jpg" />
+      <MessageForm />
     </div>
   );
 };
