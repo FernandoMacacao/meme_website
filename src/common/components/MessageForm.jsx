@@ -15,14 +15,6 @@ import DOMPurify from "dompurify";
 import emailjs from "@emailjs/browser";
 import { notification } from "antd";
 
-const SUBJECTS = [
-  "Alojamentos Locais",
-  "Alojamentos de média e longa duração",
-  "Região",
-  "Reservas",
-  "Outro",
-];
-
 const PHONE_REGEX = "^(9[1236][0-9]) ?([0-9]{3}) ?([0-9]{3})$";
 const NAME_REGEX = "^[A-Za-zÀ-ÖØ-öø-ÿs.'-]{1,40}$";
 
@@ -30,48 +22,45 @@ const sanitize = (value) => {
   return DOMPurify.sanitize(value);
 };
 
-const schema = yup.object().shape({
-  firstName: yup
-    .string()
-    .transform(sanitize)
-    .matches(NAME_REGEX, { message: "Por favor insira um nome válido." })
-    .required("Por favor insira o seu primeiro nome."),
-  lastName: yup
-    .string()
-    .transform(sanitize)
-    .matches(NAME_REGEX, { message: "Por favor insira um nome válido." })
-    .required("Por favor insira o seu último nome."),
-  email: yup
-    .string()
-    .transform(sanitize)
-    .email("Por favor insira um email válido.")
-    .required("Por favor insira o seu email."),
-  phone: yup
-    .string()
-    .transform(sanitize)
-    .matches(PHONE_REGEX, { message: "Por favor insira um número válido." }),
-  subject: yup
-    .string()
-    .transform(sanitize)
-    .oneOf(SUBJECTS)
-    .required("Por favor insira um assunto."),
-  subject2: yup.string().when("subject", {
-    is: "Outro",
-    then: yup
+export const MessageForm = ({ data }) => {
+  const isFullWidth = useMediaQuery((theme) => theme.breakpoints.down("md"));
+
+  const schema = yup.object().shape({
+    firstName: yup
       .string()
       .transform(sanitize)
-      .max(20, { message: "Por favor insira no máximo 20 caracteres." })
-      .required("Por favor insira um assunto."),
-    otherwise: yup.string().transform(sanitize).notRequired(),
-  }),
-  body: yup
-    .string()
-    .transform(sanitize)
-    .required("Por favor insira o corpo da mensagem."),
-});
-
-export const MessageForm = () => {
-  const isFullWidth = useMediaQuery((theme) => theme.breakpoints.down("md"));
+      .matches(NAME_REGEX, { message: data.firstName.error })
+      .required(data.firstName.required),
+    lastName: yup
+      .string()
+      .transform(sanitize)
+      .matches(NAME_REGEX, { message: data.lastName.error })
+      .required(data.lastName.required),
+    email: yup
+      .string()
+      .transform(sanitize)
+      .email(data.email.error)
+      .required(data.email.required),
+    phone: yup
+      .string()
+      .transform(sanitize)
+      .matches(PHONE_REGEX, { message: data.phone.error }),
+    subject: yup
+      .string()
+      .transform(sanitize)
+      .oneOf(data.subjects)
+      .required(data.subject.required),
+    subject2: yup.string().when("subject", {
+      is: data.subjects[4],
+      then: yup
+        .string()
+        .transform(sanitize)
+        .max(20, data.other.error)
+        .required(data.other.required),
+      otherwise: yup.string().transform(sanitize).notRequired(),
+    }),
+    body: yup.string().transform(sanitize).required(data.body.required),
+  });
 
   const onSubmit = () => {
     const formTemplate = {
@@ -79,7 +68,7 @@ export const MessageForm = () => {
       email: values.email,
       phone: values.phone === "" ? "Não foi fornecido" : values.phone,
       subject:
-        values.subject === SUBJECTS[4] ? values.subject2 : values.subject,
+        values.subject === data.subjects[4] ? values.subject2 : values.subject,
       body: values.body,
     };
 
@@ -150,7 +139,7 @@ export const MessageForm = () => {
           textAlign="center"
           mb={{ md: 5, xs: 2 }}
         >
-          Envie-nos uma mensagem
+          {data.title}
         </Typography>
         <Grid container spacing={1}>
           <Grid item xs={12} md={6}>
@@ -158,7 +147,7 @@ export const MessageForm = () => {
               required
               type="text"
               name="firstName"
-              label="Primeiro Nome"
+              label={data.firstName.text}
               variant="outlined"
               value={values.firstName}
               onChange={handleChange}
@@ -174,7 +163,7 @@ export const MessageForm = () => {
               required
               type="text"
               name="lastName"
-              label="Último Nome"
+              label={data.lastName.text}
               variant="outlined"
               value={values.lastName}
               onChange={handleChange}
@@ -192,7 +181,7 @@ export const MessageForm = () => {
               required
               type="email"
               name="email"
-              label="Email"
+              label={data.email.text}
               variant="outlined"
               value={values.email}
               onChange={handleChange}
@@ -205,7 +194,7 @@ export const MessageForm = () => {
             <TextField
               type="phone"
               name="phone"
-              label="Telemóvel"
+              label={data.phone.text}
               variant="outlined"
               value={values.phone}
               onChange={handleChange}
@@ -221,7 +210,7 @@ export const MessageForm = () => {
               required
               name="subject"
               select
-              label="Assunto"
+              label={data.subject.text}
               fullWidth
               value={values.subject}
               onChange={(e) => {
@@ -232,7 +221,7 @@ export const MessageForm = () => {
                 errors.subject && touched.subject ? errors.subject : ""
               }
             >
-              {SUBJECTS.map((subject, id) => (
+              {data.subjects.map((subject, id) => (
                 <MenuItem key={id} value={subject}>
                   {subject}
                 </MenuItem>
@@ -240,14 +229,14 @@ export const MessageForm = () => {
             </TextField>
           </Grid>
         </Grid>
-        {values.subject === SUBJECTS[4] ? (
+        {values.subject === data.subjects[4] ? (
           <Grid container spacing={1} mt={{ xs: 1, md: 2 }}>
             <Grid item xs={12}>
               <TextField
                 required
                 type="text"
                 name="subject2"
-                label="Outro assunto"
+                label={data.other.text}
                 variant="outlined"
                 value={values.subject2}
                 onChange={handleChange}
@@ -265,7 +254,7 @@ export const MessageForm = () => {
             <TextField
               required
               name="body"
-              label="Corpo da Mensagem"
+              label={data.body.text}
               multiline
               rows={4}
               value={values.body}
@@ -284,7 +273,7 @@ export const MessageForm = () => {
               color="primary"
               fullWidth={isFullWidth}
             >
-              Enviar
+              {data.buttonText}
             </Button>
           </Grid>
         </Grid>

@@ -8,7 +8,8 @@ export const SectionHeader = ({ title, subtitle }) => {
         {title}
       </Typography>
       <Typography
-        variant="h6"
+        variant="body1"
+        fontWeight="bold"
         color="textPrimary"
         textAlign="center"
         mb={{ xs: 2, md: 6 }}

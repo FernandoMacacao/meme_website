@@ -1,0 +1,126 @@
+{
+  "pt": {
+    "localAccommodations": {
+      "title": "Alojamentos locais",
+      "subtitle": "Nam ut ligula tortor. Aenean gravida orci sapien, at gravida metus egestas quis. Aliquam erat volutpat. Nullam tristique sem tellus, ut volutpat neque blandit at.",
+      "accommodations": [
+        {
+          "name": "Name",
+          "description": "description",
+          "image": "ex_1.jpg",
+          "link": ""
+        },
+        {
+          "name": "Name",
+          "description": "description",
+          "image": "ex_1.jpg",
+          "link": ""
+        },
+        {
+          "name": "Name",
+          "description": "description",
+          "image": "ex_1.jpg",
+          "link": ""
+        },
+        {
+          "name": "Name",
+          "description": "description",
+          "image": "ex_1.jpg",
+          "link": ""
+        }
+      ]
+    },
+    "lmtAccommodations": {
+      "title": "Alojamentos de Média e Longa duração",
+      "subtitle": "Nam ut ligula tortor. Aenean gravida orci sapien, at gravida metus egestas quis. Aliquam erat volutpat. Nullam tristique sem tellus, ut volutpat neque blandit at.",
+      "accommodations": [
+        {
+          "name": "Name",
+          "description": "description",
+          "image": "ex_1.jpg",
+          "link": ""
+        },
+        {
+          "name": "Name",
+          "description": "description",
+          "image": "ex_1.jpg",
+          "link": ""
+        },
+        {
+          "name": "Name",
+          "description": "description",
+          "image": "ex_1.jpg",
+          "link": ""
+        },
+        {
+          "name": "Name",
+          "description": "description",
+          "image": "ex_1.jpg",
+          "link": ""
+        }
+      ]
+    }
+  },
+  "en": {
+    "localAccommodations": {
+      "title": "Local Accommodations",
+      "subtitle": "Nam ut ligula tortor. Aenean gravida orci sapien, at gravida metus egestas quis. Aliquam erat volutpat. Nullam tristique sem tellus, ut volutpat neque blandit at.",
+      "accommodations": [
+        {
+          "name": "Name",
+          "description": "description",
+          "image": "ex_1.jpg",
+          "link": ""
+        },
+        {
+          "name": "Name",
+          "description": "description",
+          "image": "ex_1.jpg",
+          "link": ""
+        },
+        {
+          "name": "Name",
+          "description": "description",
+          "image": "ex_1.jpg",
+          "link": ""
+        },
+        {
+          "name": "Name",
+          "description": "description",
+          "image": "ex_1.jpg",
+          "link": ""
+        }
+      ]
+    },
+    "lmtAccommodations": {
+      "title": "Long and Medium Term Accommodations",
+      "subtitle": "Nam ut ligula tortor. Aenean gravida orci sapien, at gravida metus egestas quis. Aliquam erat volutpat. Nullam tristique sem tellus, ut volutpat neque blandit at.",
+      "accommodations": [
+        {
+          "name": "Name",
+          "description": "description",
+          "image": "ex_1.jpg",
+          "link": ""
+        },
+        {
+          "name": "Name",
+          "description": "description",
+          "image": "ex_1.jpg",
+          "link": ""
+        },
+        {
+          "name": "Name",
+          "description": "description",
+          "image": "ex_1.jpg",
+          "link": ""
+        },
+        {
+          "name": "Name",
+          "description": "description",
+          "image": "ex_1.jpg",
+          "link": ""
+        }
+      ]
+    }
+  }
+}

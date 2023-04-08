@@ -14,20 +14,13 @@ export const Home = () => {
   return (
     <div>
       <Hero />
-      <Banner />
-      <Info
-        title="Lorem ipsum dolor sit amet"
-        text="Pellentesque orci eros, accumsan vitae facilisis ut, pharetra vitae enim. Aliquam tempus blandit placerat. Nam suscipit fermentum neque, non congue ligula iaculis in. Ut tempor auctor arcu. Sed mauris dolor, ullamcorper quis vulputate eu, gravida quis eros. Praesent feugiat ornare dui non consequat."
-        imageFirst
-      />
-      <Info
-        title="Lorem ipsum dolor sit amet"
-        text="Pellentesque orci eros, accumsan vitae facilisis ut, pharetra vitae enim. Aliquam tempus blandit placerat. Nam suscipit fermentum neque, non congue ligula iaculis in. Ut tempor auctor arcu. Sed mauris dolor, ullamcorper quis vulputate eu, gravida quis eros. Praesent feugiat ornare dui non consequat."
-      />
+      <Banner data={Data[language].banner[1]} />
+      <Info data={Data[language].info[0]} />
+      <Info data={Data[language].info[1]} />
       <Accommodations data={Data[language].accommodations} />
-      <Details />
-      <Banner hasImage image="serra.jpg" />
-      <MessageForm />
+      <Details data={Data[language].details} />
+      <Banner data={Data[language].banner[0]} />
+      <MessageForm data={Data[language].form} />
     </div>
   );
 };

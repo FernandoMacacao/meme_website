@@ -2,21 +2,13 @@ import { Box, Container, Typography } from "@mui/material";
 import { SectionHeader } from "common/components/SectionHeader";
 import React from "react";
 
-export const Details = () => {
+export const Details = ({ data }) => {
   return (
     <Box my={10}>
-      <SectionHeader
-        title="Lorem Ipsum"
-        subtitle="Nam ut ligula tortor. Aenean gravida orci sapien."
-      />
+      <SectionHeader title={data.title} subtitle={data.subtitle} />
       <Container maxWidth="md">
         <Typography variant="body1" color="textPrimary" textAlign="center">
-          Etiam sed leo magna. In efficitur egestas purus a cursus. Donec in
-          lorem neque. Aenean rhoncus ultrices enim nec accumsan. Integer
-          imperdiet cursus dictum. Mauris porta leo et tincidunt posuere. Nulla
-          tortor dolor, dignissim non consectetur a, vehicula a diam. Aliquam
-          cursus orci in elit ultricies, in bibendum dolor consectetur. Integer
-          pharetra enim dolor, sit amet volutpat metus laoreet eu.
+          {data.text1}
         </Typography>
         <Typography
           variant="body1"
@@ -24,12 +16,7 @@ export const Details = () => {
           textAlign="center"
           mt={3}
         >
-          Quisque ac metus id purus volutpat auctor. Pellentesque diam magna,
-          efficitur vitae nisi a, egestas sagittis velit. Suspendisse potenti.
-          Phasellus nec massa auctor, accumsan odio ac, faucibus ex. Vestibulum
-          consectetur sapien libero, sed volutpat dolor congue id. Nunc quis dui
-          imperdiet turpis iaculis mattis ac nec enim. Aenean eleifend rutrum
-          tellus at feugiat.
+          {data.text2}
         </Typography>
       </Container>
     </Box>

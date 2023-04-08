@@ -1,12 +1,29 @@
 {
   "pt": {
     "banner": [
-      { "title": "", "text": "", "hasImage": "" },
-      { "title": "", "text": "", "hasImage": "" }
+      {
+        "title": "Serra da Estrela",
+        "text": "Nam ut ligula tortor. Aenean gravida orci sapien, at gravida metus egestas quis. Aliquam erat volutpat. Nullam tristique sem tellus, ut volutpat neque blandit at.",
+        "hasImage": true,
+        "image": "serra.jpg"
+      },
+      {
+        "title": "Praesent dolor arcu",
+        "text": "Fusce ultrices tortor sed lacus porttitor dignissim. Phasellus tincidunt posuere fringilla. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent dolor arcu, semper accumsan mi ac, malesuada semper nulla. Morbi eget mollis leo.",
+        "hasImage": false
+      }
     ],
     "info": [
-      { "title": "", "text": "", "imageFirst": "" },
-      { "title": "", "text": "", "imageFirst": "" }
+      {
+        "title": "Lorem ipsum dolor sit amet",
+        "text": "Pellentesque orci eros, accumsan vitae facilisis ut, pharetra vitae enim. Aliquam tempus blandit placerat. Nam suscipit fermentum neque, non congue ligula iaculis in. Ut tempor auctor arcu. Sed mauris dolor, ullamcorper quis vulputate eu, gravida quis eros. Praesent feugiat ornare dui non consequat.",
+        "imageFirst": true
+      },
+      {
+        "title": "Lorem ipsum dolor sit amet",
+        "text": "Pellentesque orci eros, accumsan vitae facilisis ut, pharetra vitae enim. Aliquam tempus blandit placerat. Nam suscipit fermentum neque, non congue ligula iaculis in. Ut tempor auctor arcu. Sed mauris dolor, ullamcorper quis vulputate eu, gravida quis eros. Praesent feugiat ornare dui non consequat.",
+        "imageFirst": false
+      }
     ],
     "accommodations": [
       {
@@ -23,28 +40,80 @@
       }
     ],
     "details": {
-      "title": "",
-      "subtitle": "",
-      "text1": "",
-      "text2": ""
+      "title": "Lorem Ipsum",
+      "subtitle": "Nam ut ligula tortor. Aenean gravida orci sapien.",
+      "text1": "Etiam sed leo magna. In efficitur egestas purus a cursus. Donec in lorem neque. Aenean rhoncus ultrices enim nec accumsan. Integer imperdiet cursus dictum. Mauris porta leo et tincidunt posuere. Nulla tortor dolor, dignissim non consectetur a, vehicula a diam. Aliquam cursus orci in elit ultricies, in bibendum dolor consectetur. Integer pharetra enim dolor, sit amet volutpat metus laoreet eu.",
+      "text2": "Quisque ac metus id purus volutpat auctor. Pellentesque diam magna, efficitur vitae nisi a, egestas sagittis velit. Suspendisse potenti. Phasellus nec massa auctor, accumsan odio ac, faucibus ex. Vestibulum consectetur sapien libero, sed volutpat dolor congue id. Nunc quis dui imperdiet turpis iaculis mattis ac nec enim. Aenean eleifend rutrum tellus at feugiat."
     },
     "form": {
-      "firstName": "Primeiro Nome",
-      "lastName": "Último Nome",
-      "email": "Email",
-      "phone": "Telemóvel",
-      "subject": "Assunto",
-      "body": "Corpo da Mensagem"
+      "title": "Envie-nos uma mensagem",
+      "buttonText": "Enviar",
+      "firstName": {
+        "text": "Primeiro Nome",
+        "error": "Por favor insira um nome válido.",
+        "required": "Por favor insira o seu primeiro nome."
+      },
+      "lastName": {
+        "text": "Último Nome",
+        "error": "Por favor insira um nome válido.",
+        "required": "Por favor insira o seu último nome."
+      },
+      "email": {
+        "text": "Email",
+        "error": "Por favor insira um email váido.",
+        "required": "Por favor insira o seu email."
+      },
+      "phone": {
+        "text": "Telemóvel",
+        "error": "Por favor insira um número de telemóvel válido."
+      },
+      "subject": {
+        "text": "Assunto",
+        "required": "Por favor insira um assunto."
+      },
+      "other": {
+        "text": "Outro Assunto",
+        "error": "Por favor insira no máximo 20 caracteres.",
+        "required": "Por favor insira um assunto."
+      },
+      "body": {
+        "text": "Corpo da Mensagem",
+        "required": "Por favor insira o corpo da mensagem."
+      },
+      "subjects": [
+        "Alojamentos Locais",
+        "Alojamentos de média e longa duração",
+        "Região",
+        "Reservas",
+        "Outro"
+      ]
     }
   },
   "en": {
     "banner": [
-      { "title": "", "text": "", "hasImage": "" },
-      { "title": "", "text": "", "hasImage": "" }
+      {
+        "title": "Serra da Estrela",
+        "text": "Nam ut ligula tortor. Aenean gravida orci sapien, at gravida metus egestas quis. Aliquam erat volutpat. Nullam tristique sem tellus, ut volutpat neque blandit at.",
+        "hasImage": true,
+        "image": "serra.jpg"
+      },
+      {
+        "title": "Praesent dolor arcu",
+        "text": "Fusce ultrices tortor sed lacus porttitor dignissim. Phasellus tincidunt posuere fringilla. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent dolor arcu, semper accumsan mi ac, malesuada semper nulla. Morbi eget mollis leo.",
+        "hasImage": false
+      }
     ],
     "info": [
-      { "title": "", "text": "", "imageFirst": "" },
-      { "title": "", "text": "", "imageFirst": "" }
+      {
+        "title": "Lorem ipsum dolor sit amet",
+        "text": "Pellentesque orci eros, accumsan vitae facilisis ut, pharetra vitae enim. Aliquam tempus blandit placerat. Nam suscipit fermentum neque, non congue ligula iaculis in. Ut tempor auctor arcu. Sed mauris dolor, ullamcorper quis vulputate eu, gravida quis eros. Praesent feugiat ornare dui non consequat.",
+        "imageFirst": true
+      },
+      {
+        "title": "Lorem ipsum dolor sit amet",
+        "text": "Pellentesque orci eros, accumsan vitae facilisis ut, pharetra vitae enim. Aliquam tempus blandit placerat. Nam suscipit fermentum neque, non congue ligula iaculis in. Ut tempor auctor arcu. Sed mauris dolor, ullamcorper quis vulputate eu, gravida quis eros. Praesent feugiat ornare dui non consequat.",
+        "imageFirst": false
+      }
     ],
     "accommodations": [
       {
@@ -61,18 +130,53 @@
       }
     ],
     "details": {
-      "title": "",
-      "subtitle": "",
-      "text1": "",
-      "text2": ""
+      "title": "Lorem Ipsum",
+      "subtitle": "Nam ut ligula tortor. Aenean gravida orci sapien.",
+      "text1": "Etiam sed leo magna. In efficitur egestas purus a cursus. Donec in lorem neque. Aenean rhoncus ultrices enim nec accumsan. Integer imperdiet cursus dictum. Mauris porta leo et tincidunt posuere. Nulla tortor dolor, dignissim non consectetur a, vehicula a diam. Aliquam cursus orci in elit ultricies, in bibendum dolor consectetur. Integer pharetra enim dolor, sit amet volutpat metus laoreet eu.",
+      "text2": "Quisque ac metus id purus volutpat auctor. Pellentesque diam magna, efficitur vitae nisi a, egestas sagittis velit. Suspendisse potenti. Phasellus nec massa auctor, accumsan odio ac, faucibus ex. Vestibulum consectetur sapien libero, sed volutpat dolor congue id. Nunc quis dui imperdiet turpis iaculis mattis ac nec enim. Aenean eleifend rutrum tellus at feugiat."
     },
     "form": {
-      "firstName": "First Name",
-      "lastName": "Last Name",
-      "email": "Email",
-      "phone": "Phone",
-      "subject": "Subject",
-      "body": "Message Body"
+      "title": "Send us a Message",
+      "buttonText": "Send",
+      "firstName": {
+        "text": "First Name",
+        "error": "Please insert a valid name.",
+        "required": "Please fill your first name."
+      },
+      "lastName": {
+        "text": "Last Name",
+        "error": "Please insert a valid name.",
+        "required": "Please fill your last name."
+      },
+      "email": {
+        "text": "Email",
+        "error": "Please insert a valid email.",
+        "required": "Please fill your email."
+      },
+      "phone": {
+        "text": "Phone",
+        "error": "Please insert a valid phone number."
+      },
+      "subject": {
+        "text": "Subject",
+        "required": "Please insert a subject."
+      },
+      "other": {
+        "text": "Another Subject",
+        "error": "Please insert at most 20 characters.",
+        "required": "Please fill your subject."
+      },
+      "body": {
+        "text": "Message Body",
+        "required": "Please fill your message."
+      },
+      "subjects": [
+        "Local Accommodations",
+        "Long and Medium Term Accommodations",
+        "Region",
+        "Booking",
+        "Other"
+      ]
     }
   }
 }

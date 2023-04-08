@@ -3,7 +3,7 @@ import { LinkWithScroll } from "common/components/LinkWithScroll";
 import { LanguageContext } from "configuration/app-context-manager/LanguageContext";
 import React, { useContext } from "react";
 
-export const Banner = ({ hasImage, image }) => {
+export const Banner = ({ data }) => {
   const { language } = useContext(LanguageContext);
 
   return (
@@ -15,16 +15,17 @@ export const Banner = ({ hasImage, image }) => {
           minHeight: "200px",
           background: "var(--clr-primary)",
         }}
-        mt={!hasImage ? -0.5 : undefined}
+        mt={!data.hasImage ? -0.5 : undefined}
       >
-        {hasImage ? (
-          <LinkWithScroll to={`/${language}/accommodations`}>
+        {data.hasImage ? (
+          <LinkWithScroll to={`/${language}/region`}>
             <Box
               sx={{
                 position: "relative",
                 textAlign: "center",
                 maxWidth: "100vw",
                 minHeight: "200px",
+                backgroundColor: "red",
                 overflow: "hidden",
                 "&:hover img": {
                   transform: "scale(1.05)",
@@ -47,7 +48,7 @@ export const Banner = ({ hasImage, image }) => {
             >
               <img
                 alt="Serra da Estrela"
-                src={`${require(`assets/images/${image}`)}`}
+                src={`${require(`assets/images/${data.image}`)}`}
                 style={{
                   height: "200px",
                   width: "100%",
@@ -63,6 +64,9 @@ export const Banner = ({ hasImage, image }) => {
                   left: "50%",
                   transform: "translate(-50%, -50%)",
                   width: "100%",
+                  height: "100%",
+                  display: "flex",
+                  alignItems: "center",
                   zIndex: 1000,
                 }}
               >
@@ -72,16 +76,10 @@ export const Banner = ({ hasImage, image }) => {
                     color="secondary"
                     mb={{ xs: 1, md: 2 }}
                   >
-                    Serra da Estrela
+                    {data.title}
                   </Typography>
-                  <Typography
-                    variant="body1"
-                    color="secondary"
-                    mb={{ xs: 2, md: 3 }}
-                  >
-                    Nam ut ligula tortor. Aenean gravida orci sapien, at gravida
-                    metus egestas quis. Aliquam erat volutpat. Nullam tristique
-                    sem tellus, ut volutpat neque blandit at.
+                  <Typography variant="body1" color="secondary">
+                    {data.text}
                   </Typography>
                 </Container>
               </Box>
@@ -91,14 +89,10 @@ export const Banner = ({ hasImage, image }) => {
           <Box display="flex" alignItems="center" minHeight="200px">
             <Container maxWidth="md">
               <Typography variant="h6" color="secondary" mb={2}>
-                Praesent dolor arcu
+                {data.title}
               </Typography>
               <Typography variant="body1" color="secondary">
-                Fusce ultrices tortor sed lacus porttitor dignissim. Phasellus
-                tincidunt posuere fringilla. Pellentesque habitant morbi
-                tristique senectus et netus et malesuada fames ac turpis
-                egestas. Praesent dolor arcu, semper accumsan mi ac, malesuada
-                semper nulla. Morbi eget mollis leo.
+                {data.text}
               </Typography>
             </Container>
           </Box>

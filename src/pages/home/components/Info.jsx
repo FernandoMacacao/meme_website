@@ -1,7 +1,7 @@
 import { Box, Container, Grid, Typography } from "@mui/material";
 import React from "react";
 
-export const Info = ({ title, text, imageFirst }) => {
+export const Info = ({ data }) => {
   return (
     <Box my={10}>
       <Grid
@@ -11,10 +11,10 @@ export const Info = ({ title, text, imageFirst }) => {
         columnSpacing={5}
         gridTemplateColumns={{
           xs: "1fr",
-          md: imageFirst ? "1.2fr 1fr" : "1fr 1.2fr",
+          md: data.imageFirst ? "1.2fr 1fr" : "1fr 1.2fr",
         }}
         gridTemplateAreas={
-          imageFirst
+          data.imageFirst
             ? { xs: '"col1" "col2"', md: '"col1 col2"' }
             : { xs: '"col1" "col2"', md: '"col2 col1"' }
         }
@@ -26,13 +26,13 @@ export const Info = ({ title, text, imageFirst }) => {
             sx={{
               justifyContent: {
                 xs: "center",
-                md: imageFirst ? "left" : "right",
+                md: data.imageFirst ? "left" : "right",
               },
             }}
           >
             <img
               src={require("assets/images/region.png")}
-              alt={title}
+              alt={data.title}
               style={{ maxHeight: "400px" }}
             />
           </Box>
@@ -51,10 +51,10 @@ export const Info = ({ title, text, imageFirst }) => {
             >
               <Container maxWidth="md">
                 <Typography variant="h6" color="primary">
-                  {title}
+                  {data.title}
                 </Typography>
                 <Typography variant="body1" color="common.black" mt={5}>
-                  {text}
+                  {data.text}
                 </Typography>
               </Container>
             </Box>
