@@ -12,8 +12,8 @@ import React from "react";
 const Section = ({ data }) => {
   const isFullWidth = useMediaQuery((theme) => theme.breakpoints.down("md"));
   return (
-    <Box mt={10} display="flex" width="100vw" sx={{ overflowX: "hidden" }}>
-      <Container maxWidth="xl">
+    <Box mt={5} display="flex" width="100vw" sx={{ overflowX: "hidden" }}>
+      <Container maxWidth="lg">
         <Grid
           display="grid"
           container

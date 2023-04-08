@@ -1,7 +1,8 @@
-import { Box, Container, Grid, Typography } from "@mui/material";
+import { Box, Container, Grid, Typography, useMediaQuery } from "@mui/material";
 import React from "react";
 
 export const Info = ({ data }) => {
+  const isFullWidth = useMediaQuery((theme) => theme.breakpoints.down("md"));
   return (
     <Box my={10}>
       <Grid
@@ -20,9 +21,10 @@ export const Info = ({ data }) => {
         }
       >
         {/* IMAGE */}
-        <Grid item gridArea="col1" mb={{ xs: 2 }}>
+        <Grid item gridArea="col1">
           <Box
             display="flex"
+            alignItems="center"
             sx={{
               justifyContent: {
                 xs: "center",
@@ -33,7 +35,7 @@ export const Info = ({ data }) => {
             <img
               src={require("assets/images/region.png")}
               alt={data.title}
-              style={{ maxHeight: "400px" }}
+              style={{ maxHeight: "400px", maxWidth: "100%" }}
             />
           </Box>
         </Grid>
@@ -41,19 +43,31 @@ export const Info = ({ data }) => {
         <Grid item gridArea="col2">
           <Container maxWidth="xl">
             <Box
-              border="0.5px solid var(--clr-primary)"
+              border={
+                isFullWidth ? undefined : "0.5px solid var(--clr-primary)"
+              }
               width="100%"
-              height="450px"
+              height={isFullWidth ? undefined : "450px"}
               display="flex"
               flexDirection="column"
               justifyContent="center"
               maxHeight="500px"
             >
-              <Container maxWidth="md">
-                <Typography variant="h6" color="primary">
+              <Container maxWidth="lg">
+                <Typography
+                  variant="h6"
+                  color="primary"
+                  textAlign={isFullWidth ? "center" : undefined}
+                  mt={{ xs: 3, md: 0 }}
+                >
                   {data.title}
                 </Typography>
-                <Typography variant="body1" color="common.black" mt={5}>
+                <Typography
+                  variant="body1"
+                  color="common.black"
+                  mt={{ xs: 2, md: 5 }}
+                  textAlign={isFullWidth ? "center" : undefined}
+                >
                   {data.text}
                 </Typography>
               </Container>
