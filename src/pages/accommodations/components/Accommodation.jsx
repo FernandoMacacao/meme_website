@@ -12,9 +12,10 @@ const Accommodation = ({ data }) => {
         sx={{
           position: "relative",
           textAlign: "center",
-          maxWidth: "100vw",
-          minHeight: "400px",
+          width: "100vw",
+          maxHeight: "400px",
           overflow: "hidden",
+          marginBottom: 2,
           "&:hover img": {
             transform: "scale(1.05)",
           },
@@ -38,8 +39,8 @@ const Accommodation = ({ data }) => {
           alt={data.name}
           src={`${require(`assets/images/${data.image}`)}`}
           style={{
-            maxWidth: "100vw",
-            minHeight: "400px",
+            width: "100vw",
+            maxHeight: "400px",
             objectFit: "cover",
             display: "block",
             transition: "transform 0.5s",
@@ -62,7 +63,7 @@ const Accommodation = ({ data }) => {
             <Typography variant="body1" color="secondary" mb={{ xs: 2, md: 3 }}>
               {data.description}
             </Typography>
-            <Link to={data.link} style={{ textDecoration: "none" }}>
+            <Link to={data.buttonLink} style={{ textDecoration: "none" }}>
               <Button variant="contained" color="primary">
                 {language === "pt" ? "Reserve Online!" : "Book Online!"}
               </Button>

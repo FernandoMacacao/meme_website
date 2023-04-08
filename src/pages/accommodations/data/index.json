@@ -8,25 +8,22 @@
           "name": "Name",
           "description": "description",
           "image": "ex_1.jpg",
-          "link": ""
+          "link": "",
+          "buttonLink": "/"
         },
         {
           "name": "Name",
           "description": "description",
-          "image": "ex_1.jpg",
-          "link": ""
+          "image": "ex_2.jpg",
+          "link": "",
+          "buttonLink": "/"
         },
         {
           "name": "Name",
           "description": "description",
-          "image": "ex_1.jpg",
-          "link": ""
-        },
-        {
-          "name": "Name",
-          "description": "description",
-          "image": "ex_1.jpg",
-          "link": ""
+          "image": "ex_3.jpg",
+          "link": "",
+          "buttonLink": "/"
         }
       ]
     },
@@ -38,25 +35,22 @@
           "name": "Name",
           "description": "description",
           "image": "ex_1.jpg",
-          "link": ""
+          "link": "",
+          "buttonLink": "/"
         },
         {
           "name": "Name",
           "description": "description",
-          "image": "ex_1.jpg",
-          "link": ""
+          "image": "ex_2.jpg",
+          "link": "",
+          "buttonLink": "/"
         },
         {
           "name": "Name",
           "description": "description",
-          "image": "ex_1.jpg",
-          "link": ""
-        },
-        {
-          "name": "Name",
-          "description": "description",
-          "image": "ex_1.jpg",
-          "link": ""
+          "image": "ex_3.jpg",
+          "link": "",
+          "buttonLink": "/"
         }
       ]
     }
@@ -70,25 +64,22 @@
           "name": "Name",
           "description": "description",
           "image": "ex_1.jpg",
-          "link": ""
+          "link": "",
+          "buttonLink": "/"
         },
         {
           "name": "Name",
           "description": "description",
-          "image": "ex_1.jpg",
-          "link": ""
+          "image": "ex_2.jpg",
+          "link": "",
+          "buttonLink": "/"
         },
         {
           "name": "Name",
           "description": "description",
-          "image": "ex_1.jpg",
-          "link": ""
-        },
-        {
-          "name": "Name",
-          "description": "description",
-          "image": "ex_1.jpg",
-          "link": ""
+          "image": "ex_3.jpg",
+          "link": "",
+          "buttonLink": "/"
         }
       ]
     },
@@ -100,25 +91,22 @@
           "name": "Name",
           "description": "description",
           "image": "ex_1.jpg",
-          "link": ""
+          "link": "",
+          "buttonLink": "/"
         },
         {
           "name": "Name",
           "description": "description",
-          "image": "ex_1.jpg",
-          "link": ""
+          "image": "ex_2.jpg",
+          "link": "",
+          "buttonLink": "/"
         },
         {
           "name": "Name",
           "description": "description",
-          "image": "ex_1.jpg",
-          "link": ""
-        },
-        {
-          "name": "Name",
-          "description": "description",
-          "image": "ex_1.jpg",
-          "link": ""
+          "image": "ex_3.jpg",
+          "link": "",
+          "buttonLink": "/"
         }
       ]
     }

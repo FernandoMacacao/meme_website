@@ -37,9 +37,9 @@ export const Info = ({ data }) => {
             />
           </Box>
         </Grid>
-        {/* IMAGE */}
+        {/* TEXT */}
         <Grid item gridArea="col2">
-          <Container maxWidth="xs">
+          <Container maxWidth="xl">
             <Box
               border="0.5px solid var(--clr-primary)"
               width="100%"
