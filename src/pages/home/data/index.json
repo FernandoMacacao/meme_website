@@ -1,0 +1,78 @@
+{
+  "pt": {
+    "banner": [
+      { "title": "", "text": "", "hasImage": "" },
+      { "title": "", "text": "", "hasImage": "" }
+    ],
+    "info": [
+      { "title": "", "text": "", "imageFirst": "" },
+      { "title": "", "text": "", "imageFirst": "" }
+    ],
+    "accommodations": [
+      {
+        "title": "Alojamentos Locais",
+        "text": "Donec vitae pulvinar leo. Sed interdum laoreet ornare. Phasellus convallis euismod volutpat. In lacus felis",
+        "image": "acc_2.jpg",
+        "link": "/"
+      },
+      {
+        "title": "Alojamentos de média e longa duração",
+        "text": "Donec vitae pulvinar leo. Sed interdum laoreet ornare. Phasellus convallis euismod volutpat. In lacus felis",
+        "image": "acc_1.jpg",
+        "link": "/"
+      }
+    ],
+    "details": {
+      "title": "",
+      "subtitle": "",
+      "text1": "",
+      "text2": ""
+    },
+    "form": {
+      "firstName": "Primeiro Nome",
+      "lastName": "Último Nome",
+      "email": "Email",
+      "phone": "Telemóvel",
+      "subject": "Assunto",
+      "body": "Corpo da Mensagem"
+    }
+  },
+  "en": {
+    "banner": [
+      { "title": "", "text": "", "hasImage": "" },
+      { "title": "", "text": "", "hasImage": "" }
+    ],
+    "info": [
+      { "title": "", "text": "", "imageFirst": "" },
+      { "title": "", "text": "", "imageFirst": "" }
+    ],
+    "accommodations": [
+      {
+        "title": "Local Accommodations",
+        "text": "Donec vitae pulvinar leo. Sed interdum laoreet ornare. Phasellus convallis euismod volutpat. In lacus felis",
+        "image": "acc_2.jpg",
+        "link": "/"
+      },
+      {
+        "title": "Medium and Long Term Accommodations",
+        "text": "Donec vitae pulvinar leo. Sed interdum laoreet ornare. Phasellus convallis euismod volutpat. In lacus felis",
+        "image": "acc_1.jpg",
+        "link": "/"
+      }
+    ],
+    "details": {
+      "title": "",
+      "subtitle": "",
+      "text1": "",
+      "text2": ""
+    },
+    "form": {
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email",
+      "phone": "Phone",
+      "subject": "Subject",
+      "body": "Message Body"
+    }
+  }
+}
