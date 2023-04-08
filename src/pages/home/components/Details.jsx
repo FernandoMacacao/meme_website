@@ -14,7 +14,7 @@ export const Details = ({ data }) => {
           variant="body1"
           color="textPrimary"
           textAlign="center"
-          mt={3}
+          mt={2}
         >
           {data.text2}
         </Typography>
