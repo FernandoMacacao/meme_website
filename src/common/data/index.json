@@ -6,7 +6,54 @@
       { "name": "Region", "to": "region" },
       { "name": "Sustainability Policy", "to": "policy" },
       { "name": "Contacts", "to": "contacts" }
-    ]
+    ],
+    "footer": {
+      "Links": [
+        { "name": "Home", "href": "" },
+        { "name": "Accommodations", "href": "accommodations" },
+        { "name": "Region", "href": "region" },
+        { "name": "Sustainability Policy", "href": "policy" },
+        { "name": "Contacts", "href": "contacts" }
+      ],
+      "SocialMedia": [
+        {
+          "icon": "facebook.svg",
+          "name": "Facebook",
+          "href": "https://pt-pt.facebook.com/"
+        },
+        {
+          "icon": "instagram.svg",
+          "name": "Instagram",
+          "href": "https://www.instagram.com/"
+        }
+      ],
+      "Contacts": [
+        {
+          "icon": "phone.svg",
+          "text": "999 999 999",
+          "phone": true,
+          "email": false
+        },
+        {
+          "icon": "phone.svg",
+          "text": "999 999 999",
+          "phone": true,
+          "email": false
+        },
+        {
+          "icon": "email.svg",
+          "text": "casinhas.meme@gmail.com",
+          "phone": false,
+          "email": true
+        },
+        {
+          "icon": "location.svg",
+          "text": "Morada, CP",
+          "phone": false,
+          "email": false
+        }
+      ]
+    }
   },
   "pt": {
     "links": [
@@ -15,6 +62,53 @@
       { "name": "Região", "to": "region" },
       { "name": "Política de Sustentabilidade", "to": "policy" },
       { "name": "Contactos", "to": "contacts" }
-    ]
+    ],
+    "footer": {
+      "Links": [
+        { "name": "Início", "href": "" },
+        { "name": "Alojamentos", "href": "accommodations" },
+        { "name": "Região", "href": "region" },
+        { "name": "Política de Sustentabilidade", "href": "policy" },
+        { "name": "Contactos", "href": "contacts" }
+      ],
+      "SocialMedia": [
+        {
+          "icon": "facebook.svg",
+          "name": "Facebook",
+          "href": "https://pt-pt.facebook.com/"
+        },
+        {
+          "icon": "instagram.svg",
+          "name": "Instagram",
+          "href": "https://www.instagram.com/"
+        }
+      ],
+      "Contacts": [
+        {
+          "icon": "phone.svg",
+          "text": "999 999 999",
+          "phone": true,
+          "email": false
+        },
+        {
+          "icon": "phone.svg",
+          "text": "999 999 999",
+          "phone": true,
+          "email": false
+        },
+        {
+          "icon": "email.svg",
+          "text": "casinhas.meme@gmail.com",
+          "phone": false,
+          "email": true
+        },
+        {
+          "icon": "location.svg",
+          "text": "Morada, CP",
+          "phone": false,
+          "email": false
+        }
+      ]
+    }
   }
 }

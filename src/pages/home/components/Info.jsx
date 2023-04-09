@@ -41,7 +41,7 @@ export const Info = ({ data }) => {
         </Grid>
         {/* TEXT */}
         <Grid item gridArea="col2">
-          <Container maxWidth="xl">
+          <Container maxWidth="md">
             <Box
               border={
                 isFullWidth ? undefined : "0.5px solid var(--clr-primary)"
@@ -53,7 +53,7 @@ export const Info = ({ data }) => {
               justifyContent="center"
               maxHeight="500px"
             >
-              <Container maxWidth="lg">
+              <Container maxWidth="xl">
                 <Typography
                   variant="h6"
                   color="primary"
