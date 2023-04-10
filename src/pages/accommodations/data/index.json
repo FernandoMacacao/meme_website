@@ -5,22 +5,22 @@
       "subtitle": "Nam ut ligula tortor. Aenean gravida orci sapien, at gravida metus egestas quis. Aliquam erat volutpat. Nullam tristique sem tellus, ut volutpat neque blandit at.",
       "accommodations": [
         {
-          "name": "Name",
-          "description": "description",
+          "name": "A Primeira Casinha do Mé-Mé",
+          "description": "A Primeira Casinha do Mé-Mé é um apartamento confortável com dois quartos, uma cozinha totalmente equipada, uma sala com salamandra e uma casa de banho espaçosa. Convida-nos aos Serões em família, a contar e ouvir histórias pela noite dentro até o cansaço tomar conta de nós.  ",
           "image": "ex_1.jpg",
           "link": "",
           "buttonLink": "/"
         },
         {
-          "name": "Name",
-          "description": "description",
+          "name": "O Sotão do Mé-Mé",
+          "description": "O Sotão do Mé-Mé convida-nos, no Inverno, a uma aconchegante noite junto à salamandra, acompanhada de um filme. E no Verão, apela-nos a um sesta de fim de tarde, depois de todo o despertar de sentidos que a Serra nos proporciona…",
           "image": "ex_2.jpg",
           "link": "",
           "buttonLink": "/"
         },
         {
-          "name": "Name",
-          "description": "description",
+          "name": "A Mansão do Mé-Mé",
+          "description": "Situada em pleno Centro Histórico da Vila de Manteigas, é uma antiga casa de família que foi convertida em 3 apartamentos confortáveis e modernos. Cada apartamento recebeu o nome de um dos rios que nascem na Serra da Estrela: o Mondego, o Zêzere e o Alva.",
           "image": "ex_3.jpg",
           "link": "",
           "buttonLink": "/"
