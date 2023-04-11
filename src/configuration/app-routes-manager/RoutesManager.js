@@ -10,7 +10,7 @@ import {
 import { Home, Accommodations, Region, Policy, Contacts } from "pages";
 
 export const RoutesManager = () => {
-  const { language, setLanguage } = useContext(LanguageContext);
+  const { language } = useContext(LanguageContext);
   const navigate = useNavigate();
   const location = useLocation();
 
@@ -18,19 +18,21 @@ export const RoutesManager = () => {
     navigate(`/${language}/${location.pathname.substring(4)}`, {
       replace: true,
     });
-  }, [language, setLanguage, location.pathname, navigate]);
+  }, [language, location.pathname, navigate]);
 
   return (
     <Routes>
       <Route path="/" element={<Navigate to={`/${language}/`} />} />
-      <Route path={`/${language}`} element={<Home />} />
-      <Route
-        path={`/${language}/accommodations`}
-        element={<Accommodations />}
-      />
-      <Route path={`/${language}/region`} element={<Region />} />
-      <Route path={`/${language}/policy`} element={<Policy />} />
-      <Route path={`/${language}/contacts`} element={<Contacts />} />
+      <Route path="/pt" element={<Home />} />
+      <Route path="en" element={<Home />} />
+      <Route path="/pt/accommodations" element={<Accommodations />} />
+      <Route path="/en/accommodations" element={<Accommodations />} />
+      <Route path="/pt/region" element={<Region />} />
+      <Route path="/en/region" element={<Region />} />
+      <Route path="/pt/policy" element={<Policy />} />
+      <Route path="/en/policy" element={<Policy />} />
+      <Route path="/pt/contacts" element={<Contacts />} />
+      <Route path="/en/contacts" element={<Contacts />} />
     </Routes>
   );
 };

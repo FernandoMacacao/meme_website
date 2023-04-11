@@ -14,7 +14,7 @@ export const Region = () => {
         subtitle={Data[language].region.subtitle}
       />
       {Data[language].region.section.map((reg, id) => (
-        <Section data={reg} />
+        <Section key={id} data={reg} />
       ))}
     </Box>
   );
