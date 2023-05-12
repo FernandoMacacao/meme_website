@@ -7,7 +7,14 @@ import {
   useLocation,
   useNavigate,
 } from "react-router";
-import { Home, Accommodations, Region, Policy, Contacts } from "pages";
+import {
+  Home,
+  Accommodations,
+  Region,
+  Policy,
+  Contacts,
+  Accommodation,
+} from "pages";
 
 export const RoutesManager = () => {
   const { language } = useContext(LanguageContext);
@@ -27,6 +34,8 @@ export const RoutesManager = () => {
       <Route path="en" element={<Home />} />
       <Route path="/pt/accommodations" element={<Accommodations />} />
       <Route path="/en/accommodations" element={<Accommodations />} />
+      <Route path="/pt/accommodations/:id" element={<Accommodation />} />
+      <Route path="/en/accommodations/:id" element={<Accommodation />} />
       <Route path="/pt/region" element={<Region />} />
       <Route path="/en/region" element={<Region />} />
       <Route path="/pt/policy" element={<Policy />} />

@@ -7,7 +7,7 @@ import { LanguageContext } from "configuration/app-context-manager/LanguageConte
 const Accommodation = ({ data }) => {
   const { language } = useContext(LanguageContext);
   return (
-    <LinkWithScroll to={`/${language}/${data.link}`}>
+    <LinkWithScroll to={`/${language}/accommodations/${data.link}`}>
       <Box
         sx={{
           position: "relative",
