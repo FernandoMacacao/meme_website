@@ -19,10 +19,24 @@
           "buttonLink": "/"
         },
         {
-          "name": "A Mansão do Mé-Mé",
+          "name": "Apartamento Alva",
           "description": "Situada em pleno Centro Histórico da Vila de Manteigas, é uma antiga casa de família que foi convertida em 3 apartamentos confortáveis e modernos. Cada apartamento recebeu o nome de um dos rios que nascem na Serra da Estrela: o Mondego, o Zêzere e o Alva.",
           "image": "ex_3.jpg",
-          "link": "mansao",
+          "link": "alva",
+          "buttonLink": "/"
+        },
+        {
+          "name": "Apartamento Mondêgo",
+          "description": "Situada em pleno Centro Histórico da Vila de Manteigas, é uma antiga casa de família que foi convertida em 3 apartamentos confortáveis e modernos. Cada apartamento recebeu o nome de um dos rios que nascem na Serra da Estrela: o Mondego, o Zêzere e o Alva.",
+          "image": "ex_3.jpg",
+          "link": "mondego",
+          "buttonLink": "/"
+        },
+        {
+          "name": "Apartamento Zêzere",
+          "description": "Situada em pleno Centro Histórico da Vila de Manteigas, é uma antiga casa de família que foi convertida em 3 apartamentos confortáveis e modernos. Cada apartamento recebeu o nome de um dos rios que nascem na Serra da Estrela: o Mondego, o Zêzere e o Alva.",
+          "image": "ex_3.jpg",
+          "link": "zezere",
           "buttonLink": "/"
         }
       ]
@@ -32,24 +46,31 @@
       "subtitle": "Nam ut ligula tortor. Aenean gravida orci sapien, at gravida metus egestas quis. Aliquam erat volutpat. Nullam tristique sem tellus, ut volutpat neque blandit at.",
       "accommodations": [
         {
-          "name": "Name",
-          "description": "description",
+          "name": "Apartamento Bétula",
+          "description": "Embarque numa serena escapadela no Apartamento Bétula, um oásis escondido no meio da majestosa Serra da Estrela. Este apartamento de médio a longo prazo convida-o a relaxar e reconectar-se com a natureza. Com a sua localização idílica e um conforto sem igual, o Apartamento Bétula promete uma escapadela inesquecível.",
           "image": "ex_1.jpg",
-          "link": "",
+          "link": "betula",
           "buttonLink": "/"
         },
         {
-          "name": "Name",
-          "description": "description",
+          "name": "Apartamento Teixo",
+          "description": "Este apartamento acolhedor é perfeito para estadias de médio prazo, oferecendo um retiro sereno numa localização tão nobre quanto conveniente. Quer esteja à procura de aventuras de inverno ou de verão, o Apartamento Teixo proporciona uma experiência tranquila e confortável. Venha descubrir o encanto desta deliciosa escapadela no coração da Serra da Estrela.",
           "image": "ex_2.jpg",
-          "link": "",
+          "link": "teixo",
           "buttonLink": "/"
         },
         {
-          "name": "Name",
-          "description": "description",
+          "name": "Apartamento Castanheira",
+          "description": "Entre num reino de puro encanto no Apartamento Castanheira, um apartamento excepcional que tem lugar no coração da etérea Serra da Estrela. Desvende os segredos dos pores do sol de inverno e das noites estreladas, que, assumem o protagonismo e transformam momentos comuns em memórias extraordinárias. No Apartamento Castanheira, o ordinário desaparece, e um mundo de maravilhas desdobra-se à sua porta.",
           "image": "ex_3.jpg",
-          "link": "",
+          "link": "castanheira",
+          "buttonLink": "/"
+        },
+        {
+          "name": "Apartamento Beijames",
+          "description": "Aninhe-se no Apartamento Beijames e testemunhe a inigualável fusão de conforto e aventura que se dá à medida que as noites de inverno se transformam em portais para narrativas imersivas. No verão, liberte o seu explorador interior e embarque em emocionantes caminhadas nas montanhas, regressando ao fim do dia para um merecido descanso.",
+          "image": "ex_3.jpg",
+          "link": "beijames",
           "buttonLink": "/"
         }
       ]
@@ -61,24 +82,38 @@
       "subtitle": "Nam ut ligula tortor. Aenean gravida orci sapien, at gravida metus egestas quis. Aliquam erat volutpat. Nullam tristique sem tellus, ut volutpat neque blandit at.",
       "accommodations": [
         {
-          "name": "Name",
-          "description": "description",
+          "name": "The first Mé-Mé home",
+          "description": "The First Mé-Mé's Home is a comfortable apartment with two bedrooms, a fully equipped kitchen, a living room with a fireplace, and a spacious bathroom. It invites us to family evenings, to tell and listen to stories late into the night until tiredness takes over us.",
           "image": "ex_1.jpg",
           "link": "primeiracasinha",
           "buttonLink": "/"
         },
         {
-          "name": "Name",
-          "description": "description",
+          "name": "Mé-Mé's attic",
+          "description": "Mé-Mé's Attic invites us, in the winter, to a cozy night by the fireplace, accompanied by a movie. And in the summer, it calls us to an afternoon nap, after all the awakening of senses that the mountains provide us...",
           "image": "ex_2.jpg",
           "link": "sotao",
           "buttonLink": "/"
         },
         {
-          "name": "Name",
-          "description": "description",
+          "name": "Alva Apartament",
+          "description": "Located in the heart of the Historic Center of Manteigas Village, it is a former family house that has been converted into 3 comfortable and modern apartments. Each apartment has been named after one of the rivers that originate in the Serra da Estrela: Mondego, Zêzere, and Alva.",
           "image": "ex_3.jpg",
-          "link": "mansao",
+          "link": "alva",
+          "buttonLink": "/"
+        },
+        {
+          "name": "Mondêgo Apartament",
+          "description": "Located in the heart of the Historic Center of Manteigas Village, it is a former family house that has been converted into 3 comfortable and modern apartments. Each apartment has been named after one of the rivers that originate in the Serra da Estrela: Mondego, Zêzere, and Alva.",
+          "image": "ex_3.jpg",
+          "link": "mondego",
+          "buttonLink": "/"
+        },
+        {
+          "name": "Zêzere Apartament",
+          "description": "Located in the heart of the Historic Center of Manteigas Village, it is a former family house that has been converted into 3 comfortable and modern apartments. Each apartment has been named after one of the rivers that originate in the Serra da Estrela: Mondego, Zêzere, and Alva.",
+          "image": "ex_3.jpg",
+          "link": "zezere",
           "buttonLink": "/"
         }
       ]
@@ -88,24 +123,31 @@
       "subtitle": "Nam ut ligula tortor. Aenean gravida orci sapien, at gravida metus egestas quis. Aliquam erat volutpat. Nullam tristique sem tellus, ut volutpat neque blandit at.",
       "accommodations": [
         {
-          "name": "Name",
-          "description": "description",
+          "name": "Bétula Apartament",
+          "description": "Embark on a serene retreat at the Bétula Apartment, a hidden oasis amidst the majestic Serra da Estrela. This medium to long term apartment beckons you to unwind and reconnect with nature. With its idyllic location and modern comforts, the Bétula Home promises an unforgettable escape, where cherished memories are made.",
           "image": "ex_1.jpg",
-          "link": "",
+          "link": "betula",
           "buttonLink": "/"
         },
         {
-          "name": "Name",
-          "description": "description",
+          "name": "Teixo Apartament",
+          "description": "This cozy apartment is perfect for medium-term stays, offering a serene retreat in a convenient location. Whether you're seeking winter or summer adventures, the Teixo Apartment provides a tranquil and comfortable experience. Discover the charm of this delightful getaway in the heart of Serra da Estrela.",
           "image": "ex_2.jpg",
-          "link": "",
+          "link": "teixo",
           "buttonLink": "/"
         },
         {
-          "name": "Name",
-          "description": "description",
+          "name": "Castanheira Apartament",
+          "description": "Step into a realm of pure enchantment at the Castanheira Apartment, an exceptional apartment nestled in the heart of the ethereal Serra da Estrela. Unveil the secrets of the winter sunsets as the shiny stars takeover and transform ordinary moments into extraordinary memories. At the Castanheira Apartment, the ordinary fades away, and a world of wonder unfurls at your doorstep.",
           "image": "ex_3.jpg",
-          "link": "",
+          "link": "castanheira",
+          "buttonLink": "/"
+        },
+        {
+          "name": "Beijames Apartament",
+          "description": "Escape to the Beijames Apartment and experience the fusion of comfort and adventure as winter nights become gateways to immersive storytelling and sky sightseeing. In the summer, unleash your inner explorer and embark on thrilling mountain treks, returning to the Beijames Apartment for well-deserved rest.",
+          "image": "ex_3.jpg",
+          "link": "beijames",
           "buttonLink": "/"
         }
       ]
