@@ -44,6 +44,7 @@ const Accommodation = ({ data }) => {
             objectFit: "cover",
             display: "block",
             transition: "transform 0.5s",
+            filter: "brightness(70%)",
           }}
         />
         <Box
@@ -57,10 +58,20 @@ const Accommodation = ({ data }) => {
           }}
         >
           <Container maxWidth="md">
-            <Typography variant="h6" color="secondary" mb={{ xs: 1, md: 2 }}>
+            <Typography
+              variant="h6"
+              color="secondary"
+              mb={{ xs: 1, md: 2 }}
+              sx={{ textShadow: "0px 0px 3px var(--common-black)" }}
+            >
               {data.name}
             </Typography>
-            <Typography variant="body1" color="secondary" mb={{ xs: 2, md: 3 }}>
+            <Typography
+              variant="body1"
+              color="secondary"
+              mb={{ xs: 2, md: 3 }}
+              sx={{ textShadow: "0px 0px 2px var(--common-black)" }}
+            >
               {data.description}
             </Typography>
             <Link to={data.buttonLink} style={{ textDecoration: "none" }}>
