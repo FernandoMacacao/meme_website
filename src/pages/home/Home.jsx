@@ -7,12 +7,14 @@ import { Details } from "./components/Details";
 import { MessageForm } from "common";
 import { LanguageContext } from "configuration/app-context-manager/LanguageContext";
 import Data from "./data/index.json";
+import BannerText from "./components/BannerText";
 
 export const Home = () => {
   const { language } = useContext(LanguageContext);
 
   return (
     <div>
+      <BannerText />
       <Hero />
       <Banner data={Data[language].banner[1]} />
       <Info data={Data[language].info[0]} />
