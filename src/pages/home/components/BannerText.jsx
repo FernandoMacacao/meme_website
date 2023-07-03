@@ -5,7 +5,13 @@ const BannerText = () => {
   return (
     <Stack
       sx={{
-        top: { xs: "150px", sm: "200px", md: "300px", lg: "350px" },
+        top: {
+          xs: "125px",
+          sm: "175px",
+          md: "250px",
+          lg: "300px",
+          xl: "350px",
+        },
       }}
       spacing={2}
       style={{
@@ -40,7 +46,34 @@ const BannerText = () => {
       >
         Teste
       </Typography>
-      <Button variant="outlined" size="large">
+      <Button
+        variant="outlined"
+        size="large"
+        sx={{
+          display: {
+            xs: "none",
+            sm: "none",
+            md: "block",
+            lg: "block",
+            xl: "block",
+          },
+        }}
+      >
+        Ver Mais
+      </Button>
+      <Button
+        variant="outlined"
+        size="small"
+        sx={{
+          display: {
+            xs: "block",
+            sm: "block",
+            md: "none",
+            lg: "none",
+            xl: "none",
+          },
+        }}
+      >
         Ver Mais
       </Button>
     </Stack>
