@@ -17,12 +17,14 @@
       {
         "title": "Lorem ipsum dolor sit amet",
         "text": "Pellentesque orci eros, accumsan vitae facilisis ut, pharetra vitae enim. Aliquam tempus blandit placerat. Nam suscipit fermentum neque, non congue ligula iaculis in. Ut tempor auctor arcu. Sed mauris dolor, ullamcorper quis vulputate eu, gravida quis eros. Praesent feugiat ornare dui non consequat.",
-        "imageFirst": true
+        "imageFirst": true,
+        "image": "region.png"
       },
       {
         "title": "Lorem ipsum dolor sit amet",
         "text": "Pellentesque orci eros, accumsan vitae facilisis ut, pharetra vitae enim. Aliquam tempus blandit placerat. Nam suscipit fermentum neque, non congue ligula iaculis in. Ut tempor auctor arcu. Sed mauris dolor, ullamcorper quis vulputate eu, gravida quis eros. Praesent feugiat ornare dui non consequat.",
-        "imageFirst": false
+        "imageFirst": false,
+        "image": "region.png"
       }
     ],
     "accommodations": [

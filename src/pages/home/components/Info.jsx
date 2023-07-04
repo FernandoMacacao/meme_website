@@ -33,7 +33,7 @@ export const Info = ({ data }) => {
             }}
           >
             <img
-              src={require("assets/images/region.png")}
+              src={require(`assets/images/${data.image}`)}
               alt={data.title}
               style={{ maxHeight: "400px", maxWidth: "100%" }}
             />
