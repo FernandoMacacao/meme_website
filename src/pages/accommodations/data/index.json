@@ -26,7 +26,7 @@
         },
         {
           "name": "Apartamento Alva",
-          "description": "Situada em pleno Centro Histórico da Vila de Manteigas, é uma antiga casa de família que foi convertida em 3 apartamentos confortáveis e modernos. Cada apartamento recebeu o nome de um dos rios que nascem na Serra da Estrela: o Mondego, o Zêzere e o Alva.",
+          "description": "O Alva é jovial, prático e com ligeiros “retoques” vintage. Convida-nos às caminhadas, aos mergulhos no rio, aos passeios de bicicleta, às mil promessas que os dias na Serra nos proporcionam.",
           "image": "ex_3.jpg",
           "link": "alva",
           "buttonLink": "/",
@@ -36,7 +36,7 @@
         },
         {
           "name": "Apartamento Mondêgo",
-          "description": "Situada em pleno Centro Histórico da Vila de Manteigas, é uma antiga casa de família que foi convertida em 3 apartamentos confortáveis e modernos. Cada apartamento recebeu o nome de um dos rios que nascem na Serra da Estrela: o Mondego, o Zêzere e o Alva.",
+          "description": "Com uma bela vista para o Vale Glaciar, o Mondêgo convida-nos ao repouso e à contemplação. Depois de um dia em cheio, contempla-se o Vale, as estrelas, o luar, inspiram-se os aromas da Serra e fazem-se mil planos para as aventuras do dia seguinte.",
           "image": "ex_3.jpg",
           "link": "mondego",
           "buttonLink": "/",
@@ -46,7 +46,7 @@
         },
         {
           "name": "Apartamento Zêzere",
-          "description": "Situada em pleno Centro Histórico da Vila de Manteigas, é uma antiga casa de família que foi convertida em 3 apartamentos confortáveis e modernos. Cada apartamento recebeu o nome de um dos rios que nascem na Serra da Estrela: o Mondego, o Zêzere e o Alva.",
+          "description": "O Zêzere é um apartamento cheio de luz e sol que convida a relaxar na varanda nas longas tardes de verão, depois de uma ida às praias fluviais da região ou após uma bela caminhada pelos inúmeros trilhos na Serra.",
           "image": "ex_3.jpg",
           "link": "zezere",
           "buttonLink": "/",
@@ -130,7 +130,7 @@
         },
         {
           "name": "Alva Apartament",
-          "description": "Located in the heart of the Historic Center of Manteigas Village, it is a former family house that has been converted into 3 comfortable and modern apartments. Each apartment has been named after one of the rivers that originate in the Serra da Estrela: Mondego, Zêzere, and Alva.",
+          "description": "Alva is youthful, practical, and with slight vintage touches. It invites us to go for walks, to swim in the river, to ride bicycles, and to the thousand promises that the days in the mountains offer us.",
           "image": "ex_3.jpg",
           "link": "alva",
           "buttonLink": "/",
@@ -140,7 +140,7 @@
         },
         {
           "name": "Mondêgo Apartament",
-          "description": "Located in the heart of the Historic Center of Manteigas Village, it is a former family house that has been converted into 3 comfortable and modern apartments. Each apartment has been named after one of the rivers that originate in the Serra da Estrela: Mondego, Zêzere, and Alva.",
+          "description": "With a beautiful view of the Glacial Valley, Mondêgo invites us to rest and contemplate. After a fulfilling day, one can admire the valley, the stars, the moonlight, be inspired by the scents of the mountains, and make a thousand plans for the adventures of the next day.",
           "image": "ex_3.jpg",
           "link": "mondego",
           "buttonLink": "/",
@@ -150,7 +150,7 @@
         },
         {
           "name": "Zêzere Apartament",
-          "description": "Located in the heart of the Historic Center of Manteigas Village, it is a former family house that has been converted into 3 comfortable and modern apartments. Each apartment has been named after one of the rivers that originate in the Serra da Estrela: Mondego, Zêzere, and Alva.",
+          "description": "Zêzere is a bright and sunny apartment that invites relaxation on the balcony during the long summer afternoons, after a visit to the river beaches in the region or after a beautiful hike along the numerous trails in the mountains.",
           "image": "ex_3.jpg",
           "link": "zezere",
           "buttonLink": "/",

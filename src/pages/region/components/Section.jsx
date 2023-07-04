@@ -7,9 +7,11 @@ import {
   useMediaQuery,
 } from "@mui/material";
 import { LinkWithScroll } from "common/components/LinkWithScroll";
-import React from "react";
+import React, { useContext } from "react";
+import { LanguageContext } from "configuration/app-context-manager/LanguageContext";
 
 const Section = ({ data }) => {
+  const { language } = useContext(LanguageContext);
   const isFullWidth = useMediaQuery((theme) => theme.breakpoints.down("md"));
   return (
     <Box mt={5} display="flex" width="100vw" sx={{ overflowX: "hidden" }}>
@@ -76,7 +78,7 @@ const Section = ({ data }) => {
                   color="primary"
                   fullWidth={isFullWidth}
                 >
-                  Ver no mapa
+                  {language === "pt" ? "Ver no Mapa" : "See on the Map"}
                 </Button>
               </LinkWithScroll>
             </Box>
