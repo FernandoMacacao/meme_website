@@ -5,10 +5,12 @@ import {
   Button,
   useMediaQuery,
 } from "@mui/material";
-import React from "react";
+import { LanguageContext } from "configuration/app-context-manager/LanguageContext";
+import React, { useContext } from "react";
 import { LinkWithScroll } from "common/components/LinkWithScroll";
 
 export const Accommodations = ({ data }) => {
+  const { language } = useContext(LanguageContext);
   const isMobile = useMediaQuery((theme) => theme.breakpoints.down("md"));
 
   return (
@@ -65,7 +67,7 @@ export const Accommodations = ({ data }) => {
                   color="primary"
                   fullWidth={isMobile}
                 >
-                  Saiba Mais!
+                  {language === "pt" ? "Saiba Mais" : "See More"}
                 </Button>
               </LinkWithScroll>
             </Container>

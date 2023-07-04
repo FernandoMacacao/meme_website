@@ -3,13 +3,13 @@
     "banner": [
       {
         "title": "Serra da Estrela",
-        "text": "Nam ut ligula tortor. Aenean gravida orci sapien, at gravida metus egestas quis. Aliquam erat volutpat. Nullam tristique sem tellus, ut volutpat neque blandit at.",
+        "text": "Deixe-se deslumbrar pela sua magnificiência",
         "hasImage": true,
         "image": "serra.jpg"
       },
       {
-        "title": "Praesent dolor arcu",
-        "text": "Fusce ultrices tortor sed lacus porttitor dignissim. Phasellus tincidunt posuere fringilla. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent dolor arcu, semper accumsan mi ac, malesuada semper nulla. Morbi eget mollis leo.",
+        "title": "Venha viver a vila",
+        "text": "A vila de Manteigas é uma região privilegiada e única localizada no coração do Parque Natural da Serra da Estrela. \nAqui é possível desfrutar de uma diversidade paisagística deslumbrante, locais de beleza e tranquilidade preservados com carinho, e uma conexão íntima com a natureza.",
         "hasImage": false
       }
     ],
@@ -18,13 +18,13 @@
         "title": "Lorem ipsum dolor sit amet",
         "text": "Pellentesque orci eros, accumsan vitae facilisis ut, pharetra vitae enim. Aliquam tempus blandit placerat. Nam suscipit fermentum neque, non congue ligula iaculis in. Ut tempor auctor arcu. Sed mauris dolor, ullamcorper quis vulputate eu, gravida quis eros. Praesent feugiat ornare dui non consequat.",
         "imageFirst": true,
-        "image": "region.png"
+        "image": "lagoas.jpg"
       },
       {
         "title": "Lorem ipsum dolor sit amet",
         "text": "Pellentesque orci eros, accumsan vitae facilisis ut, pharetra vitae enim. Aliquam tempus blandit placerat. Nam suscipit fermentum neque, non congue ligula iaculis in. Ut tempor auctor arcu. Sed mauris dolor, ullamcorper quis vulputate eu, gravida quis eros. Praesent feugiat ornare dui non consequat.",
         "imageFirst": false,
-        "image": "region.png"
+        "image": "fauna.jpg"
       }
     ],
     "accommodations": [
@@ -95,13 +95,13 @@
     "banner": [
       {
         "title": "Serra da Estrela",
-        "text": "Nam ut ligula tortor. Aenean gravida orci sapien, at gravida metus egestas quis. Aliquam erat volutpat. Nullam tristique sem tellus, ut volutpat neque blandit at.",
+        "text": "Let yourself be amazed by its magnificence.",
         "hasImage": true,
         "image": "serra.jpg"
       },
       {
-        "title": "Praesent dolor arcu",
-        "text": "Fusce ultrices tortor sed lacus porttitor dignissim. Phasellus tincidunt posuere fringilla. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent dolor arcu, semper accumsan mi ac, malesuada semper nulla. Morbi eget mollis leo.",
+        "title": "The charm of village life",
+        "text": "The village of Manteigas is a privileged and unique region located in the heart of the Serra da Estrela Natural Park. Here, you can enjoy stunning landscape diversity, carefully preserved sites of beauty and tranquility, and an intimate connection with nature.",
         "hasImage": false
       }
     ],
@@ -110,13 +110,13 @@
         "title": "Lorem ipsum dolor sit amet",
         "text": "Pellentesque orci eros, accumsan vitae facilisis ut, pharetra vitae enim. Aliquam tempus blandit placerat. Nam suscipit fermentum neque, non congue ligula iaculis in. Ut tempor auctor arcu. Sed mauris dolor, ullamcorper quis vulputate eu, gravida quis eros. Praesent feugiat ornare dui non consequat.",
         "imageFirst": true,
-        "image": "region.png"
+        "image": "lagoas.jpg"
       },
       {
         "title": "Lorem ipsum dolor sit amet",
         "text": "Pellentesque orci eros, accumsan vitae facilisis ut, pharetra vitae enim. Aliquam tempus blandit placerat. Nam suscipit fermentum neque, non congue ligula iaculis in. Ut tempor auctor arcu. Sed mauris dolor, ullamcorper quis vulputate eu, gravida quis eros. Praesent feugiat ornare dui non consequat.",
         "imageFirst": false,
-        "image": "region.png"
+        "image": "fauna.jpg"
       }
     ],
     "accommodations": [
