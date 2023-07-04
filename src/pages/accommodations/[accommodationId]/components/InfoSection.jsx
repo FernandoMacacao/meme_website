@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Grid, Stack, Typography } from "@mui/material";
+import { LanguageContext } from "configuration/app-context-manager/LanguageContext";
 
-const InfoSection = () => {
+const InfoSection = ({ data }) => {
+  const { language } = useContext(LanguageContext);
   return (
     <>
       <Grid container spacing={6}>
