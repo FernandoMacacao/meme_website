@@ -1,3 +1,4 @@
+import { Language } from "@mui/icons-material";
 import {
   Box,
   Button,
@@ -6,9 +7,11 @@ import {
   useMediaQuery,
 } from "@mui/material";
 import { LinkWithScroll } from "common/components/LinkWithScroll";
-import React from "react";
+import React, { useContext } from "react";
+import { LanguageContext } from "configuration/app-context-manager/LanguageContext";
 
 function AccommodationImage({ data }) {
+  const { language } = useContext(LanguageContext);
   const isMobile = useMediaQuery((theme) => theme.breakpoints.down("md"));
 
   return (
@@ -51,7 +54,7 @@ function AccommodationImage({ data }) {
           </Typography>
           <LinkWithScroll to={data.link} style={{ textDecoration: "none" }}>
             <Button variant="contained" color="primary" fullWidth={isMobile}>
-              Saiba Mais!
+              {language === "pt" ? "Saiba Mais!" : "See More!"}
             </Button>
           </LinkWithScroll>
         </Container>

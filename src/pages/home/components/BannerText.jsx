@@ -1,7 +1,9 @@
 import { Typography, Button, Stack, useMediaQuery } from "@mui/material";
-import React from "react";
+import React, { useContext } from "react";
+import { LanguageContext } from "configuration/app-context-manager/LanguageContext";
 
 const BannerText = () => {
+  const { language } = useContext(LanguageContext);
   const isMobile = useMediaQuery((theme) => theme.breakpoints.down("md"));
 
   return (
@@ -49,8 +51,12 @@ const BannerText = () => {
       >
         Teste
       </Typography>
-      <Button variant="contained" size={isMobile ? "small" : "large"}>
-        Ver Mais
+      <Button
+        // quando poderes mete este botão a ir para baixo
+        variant="contained"
+        size={isMobile ? "small" : "large"}
+      >
+        {language === "pt" ? "Ver Mais!" : "See More!"}
       </Button>
     </Stack>
   );

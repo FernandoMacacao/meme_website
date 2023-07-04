@@ -8,7 +8,7 @@
         "image": "serra.jpg"
       },
       {
-        "title": "Venha viver a vila",
+        "title": "Venha viver o charme da vila",
         "text": "A vila de Manteigas é uma região privilegiada e única localizada no coração do Parque Natural da Serra da Estrela. \nAqui é possível desfrutar de uma diversidade paisagística deslumbrante, locais de beleza e tranquilidade preservados com carinho, e uma conexão íntima com a natureza.",
         "hasImage": false
       }
@@ -30,13 +30,13 @@
     "accommodations": [
       {
         "title": "Alojamentos Locais",
-        "text": "Donec vitae pulvinar leo. Sed interdum laoreet ornare. Phasellus convallis euismod volutpat. In lacus felis",
+        "text": "Ideal para uma escapadela na natureza",
         "image": "acc_2.jpg",
         "link": "/"
       },
       {
         "title": "Alojamentos de média e longa duração",
-        "text": "Donec vitae pulvinar leo. Sed interdum laoreet ornare. Phasellus convallis euismod volutpat. In lacus felis",
+        "text": "Para aqueles que não querem deixar nada por explorar",
         "image": "acc_1.jpg",
         "link": "/"
       }
@@ -122,13 +122,13 @@
     "accommodations": [
       {
         "title": "Local Accommodations",
-        "text": "Donec vitae pulvinar leo. Sed interdum laoreet ornare. Phasellus convallis euismod volutpat. In lacus felis",
+        "text": "Ideal for a nature getaway",
         "image": "acc_2.jpg",
         "link": "/"
       },
       {
         "title": "Medium and Long Term Accommodations",
-        "text": "Donec vitae pulvinar leo. Sed interdum laoreet ornare. Phasellus convallis euismod volutpat. In lacus felis",
+        "text": "For those who don't want to leave anything unexplored",
         "image": "acc_1.jpg",
         "link": "/"
       }
