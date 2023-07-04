@@ -41,6 +41,7 @@ export const theme = createTheme({
     },
     h4: {
       fontFamily: "Montserrat",
+      fontWeight: 700,
     },
     h5: {
       fontFamily: "Lato",

@@ -1,7 +1,9 @@
-import { Typography, Button, Stack } from "@mui/material";
+import { Typography, Button, Stack, useMediaQuery } from "@mui/material";
 import React from "react";
 
 const BannerText = () => {
+  const isMobile = useMediaQuery((theme) => theme.breakpoints.down("md"));
+
   return (
     <Stack
       sx={{
@@ -23,9 +25,9 @@ const BannerText = () => {
       }}
     >
       <Typography
-        variant="h1"
+        variant={isMobile ? "h4" : "h2"}
         sx={{
-          fontSize: { xs: "20px", sm: "28px", md: "36px", lg: "48px" },
+          textShadow: "0px 0px 3px var(--common-black)",
         }}
         style={{
           margin: "auto",
@@ -35,9 +37,10 @@ const BannerText = () => {
         BannerText
       </Typography>
       <Typography
-        variant="h4"
+        variant="h5"
         sx={{
-          fontSize: { xs: "20px", sm: "28px", md: "36px", lg: "48px" },
+          textShadow: "0px 0px 3px var(--common-black)",
+          fontWeight: 400,
         }}
         style={{
           margin: "auto",
@@ -46,34 +49,7 @@ const BannerText = () => {
       >
         Teste
       </Typography>
-      <Button
-        variant="outlined"
-        size="large"
-        sx={{
-          display: {
-            xs: "none",
-            sm: "none",
-            md: "block",
-            lg: "block",
-            xl: "block",
-          },
-        }}
-      >
-        Ver Mais
-      </Button>
-      <Button
-        variant="outlined"
-        size="small"
-        sx={{
-          display: {
-            xs: "block",
-            sm: "block",
-            md: "none",
-            lg: "none",
-            xl: "none",
-          },
-        }}
-      >
+      <Button variant="contained" size={isMobile ? "small" : "large"}>
         Ver Mais
       </Button>
     </Stack>

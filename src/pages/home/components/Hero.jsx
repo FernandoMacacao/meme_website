@@ -26,6 +26,7 @@ export const Hero = () => {
             key={id}
             src={require(`../../../assets/images/${image}`)}
             alt="Serra da Estrela"
+            style={{ filter: "brightness(50%)" }}
           />
         ))}
       </Slider>
