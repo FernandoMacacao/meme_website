@@ -19,14 +19,14 @@
     ],
     "info": [
       {
-        "title": "Lorem ipsum dolor sit amet",
-        "text": "Pellentesque orci eros, accumsan vitae facilisis ut, pharetra vitae enim. Aliquam tempus blandit placerat. Nam suscipit fermentum neque, non congue ligula iaculis in. Ut tempor auctor arcu. Sed mauris dolor, ullamcorper quis vulputate eu, gravida quis eros. Praesent feugiat ornare dui non consequat.",
+        "title": "Mais sobre Manteigas...",
+        "text": "O concelho de Manteigas é o berço do rio Zêzere, o segundo maior rio exclusivamente português, logo após o Mondego, também ele nascido na Serra da Estrela. Juntamente com Seia e Covilhã, Manteigas é um dos três municípios que partilham o ponto mais elevado de Portugal Continental, a Torre da Serra da Estrela. Encontra em Manteigas, locais de extrema beleza: o Vale Glaciar do Zêzere, um dos maiores Vales Glaciares da Europa; A Rota das Faias, com a maior mancha de faias da Península Ibérica; a Cascata do Poço do Inferno, uma queda de água gélida e cristalina de rara beleza; o Covão d’ Ametade entre muitos outros.",
         "imageFirst": true,
         "image": "lagoas.jpg"
       },
       {
-        "title": "Lorem ipsum dolor sit amet",
-        "text": "Pellentesque orci eros, accumsan vitae facilisis ut, pharetra vitae enim. Aliquam tempus blandit placerat. Nam suscipit fermentum neque, non congue ligula iaculis in. Ut tempor auctor arcu. Sed mauris dolor, ullamcorper quis vulputate eu, gravida quis eros. Praesent feugiat ornare dui non consequat.",
+        "title": "Mais sobre a Serra...",
+        "text": "A Serra da Estrela é a principal Serra de Portugal Continental e é também o berço de cinco lindíssimos rios: Mondego, Zêzere, Alva, Alvôco e Beijames. A paisagem do Parque Natural distingue-se pelos rochedos, fragas e penhascos. A Serra é ainda um testemunho fundamental dos vestígios da última glaciação, que ocorreu há cerca de 30 mil anos, apresentando uma elevada geodiversidade e rochas com idades até cerca de 600 milhões de anos. Ao longo de todo o Parque Natural é possível fazer passeios pedestres, a cavalo ou em bicicleta. Existem centenas de quilómetros de trilhos onde poderá desfrutar de toda a beleza natural da Serra.",
         "imageFirst": false,
         "image": "fauna.jpg"
       }
@@ -115,14 +115,14 @@
     ],
     "info": [
       {
-        "title": "Lorem ipsum dolor sit amet",
-        "text": "Pellentesque orci eros, accumsan vitae facilisis ut, pharetra vitae enim. Aliquam tempus blandit placerat. Nam suscipit fermentum neque, non congue ligula iaculis in. Ut tempor auctor arcu. Sed mauris dolor, ullamcorper quis vulputate eu, gravida quis eros. Praesent feugiat ornare dui non consequat.",
+        "title": "More about Manteigas...",
+        "text": "The village of Manteigas is the birthplace of the Zêzere River, the second largest river exclusively within Portugal, second only to the Mondego River, also with origin in Serra da Estrela. Along with Seia and Covilhã, Manteigas is one of the three municipalities that share the highest point in mainland Portugal, the Torre of Serra da Estrela. In Manteigas, you can find places of extreme beauty, such as the Glacial Valley of Zêzere, one of the largest glacial valleys in Europe; the Rota das Faias, with the largest beech forest in the Iberian Peninsula; the Poço do Inferno Waterfall, a stunning and crystalline cascade; the Covão d'Ametade, among many others.",
         "imageFirst": true,
         "image": "lagoas.jpg"
       },
       {
-        "title": "Lorem ipsum dolor sit amet",
-        "text": "Pellentesque orci eros, accumsan vitae facilisis ut, pharetra vitae enim. Aliquam tempus blandit placerat. Nam suscipit fermentum neque, non congue ligula iaculis in. Ut tempor auctor arcu. Sed mauris dolor, ullamcorper quis vulputate eu, gravida quis eros. Praesent feugiat ornare dui non consequat.",
+        "title": "More about Serra da Estrela...",
+        "text": "The Serra da Estrela is the main mountain range in mainland Portugal and is also the birthplace of five beautiful rivers: Mondego, Zêzere, Alva, Alvôco, and Beijames. The landscape of the Natural Park is characterized by rocks, cliffs, and crags. The Serra is also a crucial testimony to the remnants of the last glaciation, which occurred about 30,000 years ago, displaying high geodiversity and rocks dating back up to approximately 600 million years. Throughout the entire Natural Park, it is possible to go on hiking, horseback riding, or cycling tours. There are hundreds of kilometers of trails where you can enjoy the natural beauty of the Serra.",
         "imageFirst": false,
         "image": "fauna.jpg"
       }
