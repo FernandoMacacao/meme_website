@@ -1,5 +1,9 @@
 {
   "pt": {
+    "hero": {
+      "title": "Bem-vindo",
+      "text": "Bem-vindo"
+    },
     "banner": [
       {
         "title": "Serra da Estrela",
@@ -92,6 +96,10 @@
     }
   },
   "en": {
+    "hero": {
+      "title": "Welcome",
+      "text": "Welcome"
+    },
     "banner": [
       {
         "title": "Serra da Estrela",

@@ -2,7 +2,7 @@ import { Typography, Button, Stack, useMediaQuery } from "@mui/material";
 import React, { useContext } from "react";
 import { LanguageContext } from "configuration/app-context-manager/LanguageContext";
 
-const BannerText = () => {
+const BannerText = ({ data }) => {
   const { language } = useContext(LanguageContext);
   const isMobile = useMediaQuery((theme) => theme.breakpoints.down("md"));
 
@@ -36,7 +36,7 @@ const BannerText = () => {
           color: "white",
         }}
       >
-        BannerText
+        {data.title}
       </Typography>
       <Typography
         variant="h5"
@@ -49,7 +49,7 @@ const BannerText = () => {
           color: "white",
         }}
       >
-        Teste
+        {data.text}
       </Typography>
       <Button
         // quando poderes mete este botão a ir para baixo
