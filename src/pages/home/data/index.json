@@ -13,14 +13,14 @@
       },
       {
         "title": "Venha viver o charme da vila",
-        "text": "A vila de Manteigas é uma região privilegiada e única localizada no coração do Parque Natural da Serra da Estrela. \nAqui é possível desfrutar de uma diversidade paisagística deslumbrante, locais de beleza e tranquilidade preservados com carinho, e uma conexão íntima com a natureza.",
+        "text": "Manteigas é uma região privilegiada e única localizada no coração do Parque Natural da Serra da Estrela. \nAqui é possível desfrutar de uma diversidade paisagística deslumbrante, locais de beleza e tranquilidade preservados com carinho, e uma conexão íntima com a natureza.",
         "hasImage": false
       }
     ],
     "info": [
       {
         "title": "Mais sobre Manteigas...",
-        "text": "O concelho de Manteigas é o berço do rio Zêzere, o segundo maior rio exclusivamente português, logo após o Mondego, também ele nascido na Serra da Estrela. Juntamente com Seia e Covilhã, Manteigas é um dos três municípios que partilham o ponto mais elevado de Portugal Continental, a Torre da Serra da Estrela. Encontra em Manteigas, locais de extrema beleza: o Vale Glaciar do Zêzere, um dos maiores Vales Glaciares da Europa; A Rota das Faias, com a maior mancha de faias da Península Ibérica; a Cascata do Poço do Inferno, uma queda de água gélida e cristalina de rara beleza; o Covão d’ Ametade entre muitos outros.",
+        "text": "A vila de Manteigas é o berço do rio Zêzere, o segundo maior rio exclusivamente português, logo após o Mondego, também ele nascido na Serra da Estrela. Juntamente com Seia e Covilhã, Manteigas é um dos três municípios que partilham o ponto mais elevado de Portugal Continental, a Torre da Serra da Estrela. Encontra em Manteigas, locais de extrema beleza: o Vale Glaciar do Zêzere, um dos maiores Vales Glaciares da Europa; A Rota das Faias, com a maior mancha de faias da Península Ibérica; a Cascata do Poço do Inferno, uma queda de água gélida e cristalina de rara beleza; o Covão d’ Ametade entre muitos outros.",
         "imageFirst": true,
         "image": "lagoas.jpg"
       },
@@ -46,8 +46,8 @@
       }
     ],
     "details": {
-      "title": "Lorem Ipsum",
-      "subtitle": "Nam ut ligula tortor. Aenean gravida orci sapien.",
+      "title": "As Casinhas do Mé-Mé",
+      "subtitle": "Mais que um alojamento, uma vivência inigualável",
       "text1": "Etiam sed leo magna. In efficitur egestas purus a cursus. Donec in lorem neque. Aenean rhoncus ultrices enim nec accumsan. Integer imperdiet cursus dictum. Mauris porta leo et tincidunt posuere. Nulla tortor dolor, dignissim non consectetur a, vehicula a diam. Aliquam cursus orci in elit ultricies, in bibendum dolor consectetur. Integer pharetra enim dolor, sit amet volutpat metus laoreet eu.",
       "text2": "Quisque ac metus id purus volutpat auctor. Pellentesque diam magna, efficitur vitae nisi a, egestas sagittis velit. Suspendisse potenti. Phasellus nec massa auctor, accumsan odio ac, faucibus ex. Vestibulum consectetur sapien libero, sed volutpat dolor congue id. Nunc quis dui imperdiet turpis iaculis mattis ac nec enim. Aenean eleifend rutrum tellus at feugiat."
     },
@@ -109,7 +109,7 @@
       },
       {
         "title": "The charm of village life",
-        "text": "The village of Manteigas is a privileged and unique region located in the heart of the Serra da Estrela Natural Park. Here, you can enjoy stunning landscape diversity, carefully preserved sites of beauty and tranquility, and an intimate connection with nature.",
+        "text": "Manteigas is a privileged and unique region located in the heart of the Serra da Estrela Natural Park. Here, you can enjoy stunning landscape diversity, carefully preserved sites of beauty and tranquility, and an intimate connection with nature.",
         "hasImage": false
       }
     ],
@@ -142,8 +142,8 @@
       }
     ],
     "details": {
-      "title": "Lorem Ipsum",
-      "subtitle": "Nam ut ligula tortor. Aenean gravida orci sapien.",
+      "title": "As Casinhas do Mé-Mé",
+      "subtitle": "More than just lodging, an unparalleled experience",
       "text1": "Etiam sed leo magna. In efficitur egestas purus a cursus. Donec in lorem neque. Aenean rhoncus ultrices enim nec accumsan. Integer imperdiet cursus dictum. Mauris porta leo et tincidunt posuere. Nulla tortor dolor, dignissim non consectetur a, vehicula a diam. Aliquam cursus orci in elit ultricies, in bibendum dolor consectetur. Integer pharetra enim dolor, sit amet volutpat metus laoreet eu.",
       "text2": "Quisque ac metus id purus volutpat auctor. Pellentesque diam magna, efficitur vitae nisi a, egestas sagittis velit. Suspendisse potenti. Phasellus nec massa auctor, accumsan odio ac, faucibus ex. Vestibulum consectetur sapien libero, sed volutpat dolor congue id. Nunc quis dui imperdiet turpis iaculis mattis ac nec enim. Aenean eleifend rutrum tellus at feugiat."
     },
