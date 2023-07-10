@@ -7,7 +7,7 @@ export const Banner = ({ data }) => {
   const { language } = useContext(LanguageContext);
 
   return (
-    <>
+    <div id="banner">
       <Box
         sx={{
           textAlign: "center",
@@ -98,6 +98,6 @@ export const Banner = ({ data }) => {
           </Box>
         )}
       </Box>
-    </>
+    </div>
   );
 };

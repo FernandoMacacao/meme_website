@@ -10,9 +10,15 @@
           "image": "ex_1.jpg",
           "link": "primeiracasinha",
           "buttonLink": "/",
-          "bedNumber": "5",
-          "bathNumber": "3",
-          "personNumber": "5"
+          "available": "True",
+          "personNumber": "5",
+          "comodities": {
+            "kitchen": [],
+            "livingRoom": [],
+            "bedroom": [],
+            "bathroom": [],
+            "outside": []
+          }
         },
         {
           "name": "O Sotão do Mé-Mé",
@@ -20,9 +26,15 @@
           "image": "ex_2.jpg",
           "link": "sotao",
           "buttonLink": "/",
-          "bedNumber": "5",
-          "bathNumber": "3",
-          "personNumber": "5"
+          "available": "True",
+          "personNumber": "5",
+          "comodities": {
+            "kitchen": [],
+            "livingRoom": [],
+            "bedroom": [],
+            "bathroom": [],
+            "outside": []
+          }
         },
         {
           "name": "Apartamento Alva",
@@ -30,9 +42,15 @@
           "image": "ex_3.jpg",
           "link": "alva",
           "buttonLink": "/",
-          "bedNumber": "5",
-          "bathNumber": "3",
-          "personNumber": "5"
+          "available": "True",
+          "personNumber": "5",
+          "comodities": {
+            "kitchen": [],
+            "livingRoom": [],
+            "bedroom": [],
+            "bathroom": [],
+            "outside": []
+          }
         },
         {
           "name": "Apartamento Mondêgo",
@@ -40,9 +58,15 @@
           "image": "ex_3.jpg",
           "link": "mondego",
           "buttonLink": "/",
-          "bedNumber": "5",
-          "bathNumber": "3",
-          "personNumber": "5"
+          "available": "True",
+          "personNumber": "5",
+          "comodities": {
+            "kitchen": [],
+            "livingRoom": [],
+            "bedroom": [],
+            "bathroom": [],
+            "outside": []
+          }
         },
         {
           "name": "Apartamento Zêzere",
@@ -50,9 +74,15 @@
           "image": "ex_3.jpg",
           "link": "zezere",
           "buttonLink": "/",
-          "bedNumber": "5",
-          "bathNumber": "3",
-          "personNumber": "5"
+          "available": "True",
+          "personNumber": "5",
+          "comodities": {
+            "kitchen": [],
+            "livingRoom": [],
+            "bedroom": [],
+            "bathroom": [],
+            "outside": []
+          }
         }
       ]
     },
@@ -66,9 +96,15 @@
           "image": "ex_1.jpg",
           "link": "betula",
           "buttonLink": "/",
-          "bedNumber": "5",
-          "bathNumber": "3",
-          "personNumber": "5"
+          "available": "False",
+          "personNumber": "5",
+          "comodities": {
+            "kitchen": [],
+            "livingRoom": [],
+            "bedroom": [],
+            "bathroom": [],
+            "outside": []
+          }
         },
         {
           "name": "Apartamento Teixo",
@@ -76,9 +112,15 @@
           "image": "ex_2.jpg",
           "link": "teixo",
           "buttonLink": "/",
-          "bedNumber": "5",
-          "bathNumber": "3",
-          "personNumber": "5"
+          "available": "False",
+          "personNumber": "5",
+          "comodities": {
+            "kitchen": [],
+            "livingRoom": [],
+            "bedroom": [],
+            "bathroom": [],
+            "outside": []
+          }
         },
         {
           "name": "Apartamento Castanheira",
@@ -86,9 +128,15 @@
           "image": "ex_3.jpg",
           "link": "castanheira",
           "buttonLink": "/",
-          "bedNumber": "5",
-          "bathNumber": "3",
-          "personNumber": "5"
+          "available": "False",
+          "personNumber": "5",
+          "comodities": {
+            "kitchen": [],
+            "livingRoom": [],
+            "bedroom": [],
+            "bathroom": [],
+            "outside": []
+          }
         },
         {
           "name": "Apartamento Beijames",
@@ -96,9 +144,15 @@
           "image": "ex_3.jpg",
           "link": "beijames",
           "buttonLink": "/",
-          "bedNumber": "5",
-          "bathNumber": "3",
-          "personNumber": "5"
+          "available": "False",
+          "personNumber": "5",
+          "comodities": {
+            "kitchen": [],
+            "livingRoom": [],
+            "bedroom": [],
+            "bathroom": [],
+            "outside": []
+          }
         }
       ]
     }
@@ -114,9 +168,15 @@
           "image": "ex_1.jpg",
           "link": "primeiracasinha",
           "buttonLink": "/",
-          "bedNumber": "5",
-          "bathNumber": "3",
-          "personNumber": "5"
+          "available": "True",
+          "personNumber": "5",
+          "comodities": {
+            "kitchen": [],
+            "livingRoom": [],
+            "bedroom": [],
+            "bathroom": [],
+            "outside": []
+          }
         },
         {
           "name": "Mé-Mé's attic",
@@ -124,9 +184,15 @@
           "image": "ex_2.jpg",
           "link": "sotao",
           "buttonLink": "/",
-          "bedNumber": "5",
-          "bathNumber": "3",
-          "personNumber": "5"
+          "available": "True",
+          "personNumber": "5",
+          "comodities": {
+            "kitchen": [],
+            "livingRoom": [],
+            "bedroom": [],
+            "bathroom": [],
+            "outside": []
+          }
         },
         {
           "name": "Alva Apartament",
@@ -134,9 +200,15 @@
           "image": "ex_3.jpg",
           "link": "alva",
           "buttonLink": "/",
-          "bedNumber": "5",
-          "bathNumber": "3",
-          "personNumber": "5"
+          "available": "True",
+          "personNumber": "5",
+          "comodities": {
+            "kitchen": [],
+            "livingRoom": [],
+            "bedroom": [],
+            "bathroom": [],
+            "outside": []
+          }
         },
         {
           "name": "Mondêgo Apartament",
@@ -144,9 +216,15 @@
           "image": "ex_3.jpg",
           "link": "mondego",
           "buttonLink": "/",
-          "bedNumber": "5",
-          "bathNumber": "3",
-          "personNumber": "5"
+          "available": "True",
+          "personNumber": "5",
+          "comodities": {
+            "kitchen": [],
+            "livingRoom": [],
+            "bedroom": [],
+            "bathroom": [],
+            "outside": []
+          }
         },
         {
           "name": "Zêzere Apartament",
@@ -154,9 +232,15 @@
           "image": "ex_3.jpg",
           "link": "zezere",
           "buttonLink": "/",
-          "bedNumber": "5",
-          "bathNumber": "3",
-          "personNumber": "5"
+          "available": "True",
+          "personNumber": "5",
+          "comodities": {
+            "kitchen": [],
+            "livingRoom": [],
+            "bedroom": [],
+            "bathroom": [],
+            "outside": []
+          }
         }
       ]
     },
@@ -170,8 +254,7 @@
           "image": "ex_1.jpg",
           "link": "betula",
           "buttonLink": "/",
-          "bedNumber": "5",
-          "bathNumber": "3",
+          "available": "False",
           "personNumber": "5"
         },
         {
@@ -180,9 +263,15 @@
           "image": "ex_2.jpg",
           "link": "teixo",
           "buttonLink": "/",
-          "bedNumber": "5",
-          "bathNumber": "3",
-          "personNumber": "5"
+          "available": "False",
+          "personNumber": "5",
+          "comodities": {
+            "kitchen": [],
+            "livingRoom": [],
+            "bedroom": [],
+            "bathroom": [],
+            "outside": []
+          }
         },
         {
           "name": "Castanheira Apartament",
@@ -190,9 +279,15 @@
           "image": "ex_3.jpg",
           "link": "castanheira",
           "buttonLink": "/",
-          "bedNumber": "5",
-          "bathNumber": "3",
-          "personNumber": "5"
+          "available": "False",
+          "personNumber": "5",
+          "comodities": {
+            "kitchen": [],
+            "livingRoom": [],
+            "bedroom": [],
+            "bathroom": [],
+            "outside": []
+          }
         },
         {
           "name": "Beijames Apartament",
@@ -200,9 +295,15 @@
           "image": "ex_3.jpg",
           "link": "beijames",
           "buttonLink": "/",
-          "bedNumber": "5",
-          "bathNumber": "3",
-          "personNumber": "5"
+          "available": "False",
+          "personNumber": "5",
+          "comodities": {
+            "kitchen": [],
+            "livingRoom": [],
+            "bedroom": [],
+            "bathroom": [],
+            "outside": []
+          }
         }
       ]
     }

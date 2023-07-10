@@ -52,6 +52,7 @@ const BannerText = ({ data }) => {
         {data.text}
       </Typography>
       <Button
+        href="#banner"
         // quando poderes mete este botão a ir para baixo
         variant="contained"
         size={isMobile ? "small" : "large"}
