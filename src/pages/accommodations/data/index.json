@@ -11,13 +11,29 @@
           "link": "primeiracasinha",
           "buttonLink": "/",
           "available": "True",
-          "personNumber": "5",
+          "personNumber": "5 Adultos",
           "comodities": {
-            "kitchen": [],
-            "livingRoom": [],
-            "bedroom": [],
-            "bathroom": [],
-            "outside": []
+            "Cozinha": [
+              "Forno",
+              "Fogão",
+              "Frigorífico",
+              "Micro-ondas",
+              "Máquina de Café"
+            ],
+            "Sala de estar": [
+              "Ar Condicionado",
+              "Wi-fi",
+              "Jogos de tabuleiro",
+              "Salamandra",
+              "Televisão"
+            ],
+            "Quarto": ["Roupas de cama", "Toalhas"],
+            "Casa de banho": [
+              "Secador de cabelo",
+              "Secador de toalhas",
+              "Duche"
+            ],
+            "Exterior": ["Estacionamento público gratuito"]
           }
         },
         {
@@ -27,13 +43,28 @@
           "link": "sotao",
           "buttonLink": "/",
           "available": "True",
-          "personNumber": "5",
+          "personNumber": "2 Adultos + 2 Crianças",
           "comodities": {
-            "kitchen": [],
-            "livingRoom": [],
-            "bedroom": [],
-            "bathroom": [],
-            "outside": []
+            "Cozinha": [
+              "Fogão",
+              "Frigorífico",
+              "Micro-ondas",
+              "Máquina de Café"
+            ],
+            "Sala de estar": [
+              "Ar Condicionado",
+              "Wi-fi",
+              "Jogos de tabuleiro",
+              "Salamandra",
+              "Televisão"
+            ],
+            "Quarto": ["Roupas de cama", "Toalhas"],
+            "Casa de banho": [
+              "Secador de cabelo",
+              "Secador de toalhas",
+              "Duche"
+            ],
+            "Exterior": ["Estacionamento público gratuito"]
           }
         },
         {
@@ -43,13 +74,28 @@
           "link": "alva",
           "buttonLink": "/",
           "available": "True",
-          "personNumber": "5",
+          "personNumber": "2 Adultos + 2 Crianças",
           "comodities": {
-            "kitchen": [],
-            "livingRoom": [],
-            "bedroom": [],
-            "bathroom": [],
-            "outside": []
+            "Cozinha": [
+              "Fogão",
+              "Frigorífico",
+              "Micro-ondas",
+              "Máquina de Café"
+            ],
+            "Sala de estar": [
+              "Ar Condicionado",
+              "Wi-fi",
+              "Jogos de tabuleiro",
+              "Salamandra",
+              "Televisão"
+            ],
+            "Quarto": ["Roupas de cama", "Toalhas"],
+            "Casa de banho": [
+              "Secador de cabelo",
+              "Secador de toalhas",
+              "Duche"
+            ],
+            "Exterior": ["Estacionamento público gratuito", "Varanda"]
           }
         },
         {
@@ -59,13 +105,28 @@
           "link": "mondego",
           "buttonLink": "/",
           "available": "True",
-          "personNumber": "5",
+          "personNumber": "2 Adultos + 2 Crianças",
           "comodities": {
-            "kitchen": [],
-            "livingRoom": [],
-            "bedroom": [],
-            "bathroom": [],
-            "outside": []
+            "Cozinha": [
+              "Fogão",
+              "Frigorífico",
+              "Micro-ondas",
+              "Máquina de Café"
+            ],
+            "Sala de estar": [
+              "Ar Condicionado",
+              "Wi-fi",
+              "Jogos de tabuleiro",
+              "Salamandra",
+              "Televisão"
+            ],
+            "Quarto": ["Roupas de cama", "Toalhas"],
+            "Casa de banho": [
+              "Secador de cabelo",
+              "Secador de toalhas",
+              "Duche"
+            ],
+            "Exterior": ["Estacionamento público gratuito", "Varanda"]
           }
         },
         {
@@ -75,13 +136,28 @@
           "link": "zezere",
           "buttonLink": "/",
           "available": "True",
-          "personNumber": "5",
+          "personNumber": "2 Adultos + 2 Crianças",
           "comodities": {
-            "kitchen": [],
-            "livingRoom": [],
-            "bedroom": [],
-            "bathroom": [],
-            "outside": []
+            "Cozinha": [
+              "Fogão",
+              "Frigorífico",
+              "Micro-ondas",
+              "Máquina de Café"
+            ],
+            "Sala de estar": [
+              "Ar Condicionado",
+              "Wi-fi",
+              "Jogos de tabuleiro",
+              "Salamandra",
+              "Televisão"
+            ],
+            "Quarto": ["Roupas de cama", "Toalhas"],
+            "Casa de banho": [
+              "Secador de cabelo",
+              "Secador de toalhas",
+              "Duche"
+            ],
+            "Exterior": ["Estacionamento público gratuito", "Varanda"]
           }
         }
       ]
@@ -99,11 +175,11 @@
           "available": "False",
           "personNumber": "5",
           "comodities": {
-            "kitchen": [],
-            "livingRoom": [],
-            "bedroom": [],
-            "bathroom": [],
-            "outside": []
+            "Cozinha": [],
+            "Sala de estar": [],
+            "Quarto": [],
+            "Casa de banho": [],
+            "Exterior": []
           }
         },
         {
@@ -115,11 +191,11 @@
           "available": "False",
           "personNumber": "5",
           "comodities": {
-            "kitchen": [],
-            "livingRoom": [],
-            "bedroom": [],
-            "bathroom": [],
-            "outside": []
+            "Cozinha": [],
+            "Sala de estar": [],
+            "Quarto": [],
+            "Casa de banho": [],
+            "Exterior": []
           }
         },
         {
@@ -131,11 +207,11 @@
           "available": "False",
           "personNumber": "5",
           "comodities": {
-            "kitchen": [],
-            "livingRoom": [],
-            "bedroom": [],
-            "bathroom": [],
-            "outside": []
+            "Cozinha": [],
+            "Sala de estar": [],
+            "Quarto": [],
+            "Casa de banho": [],
+            "Exterior": []
           }
         },
         {
@@ -147,11 +223,11 @@
           "available": "False",
           "personNumber": "5",
           "comodities": {
-            "kitchen": [],
-            "livingRoom": [],
-            "bedroom": [],
-            "bathroom": [],
-            "outside": []
+            "Cozinha": [],
+            "Sala de estar": [],
+            "Quarto": [],
+            "Casa de banho": [],
+            "Exterior": []
           }
         }
       ]
@@ -169,13 +245,26 @@
           "link": "primeiracasinha",
           "buttonLink": "/",
           "available": "True",
-          "personNumber": "5",
+          "personNumber": "5 Adults",
           "comodities": {
-            "kitchen": [],
-            "livingRoom": [],
-            "bedroom": [],
-            "bathroom": [],
-            "outside": []
+            "Kitchen": [
+              "Stove",
+              "Oven",
+              "Refrigerator",
+              "Eletric Kettle",
+              "Microwave",
+              "Coffe Machine"
+            ],
+            "LivingRoom": [
+              "Air conditioning",
+              "Television",
+              "Wi-fi",
+              "Board Games",
+              "Fireplace"
+            ],
+            "Bedroom": ["Bed Sheets", "Towels"],
+            "Bathroom": ["Hairdryer", "Towel dryer", "Shower"],
+            "Outside": ["Public Free Parking"]
           }
         },
         {
@@ -185,13 +274,25 @@
           "link": "sotao",
           "buttonLink": "/",
           "available": "True",
-          "personNumber": "5",
+          "personNumber": "2 Adults + 2 Children",
           "comodities": {
-            "kitchen": [],
-            "livingRoom": [],
-            "bedroom": [],
-            "bathroom": [],
-            "outside": []
+            "Kitchen": [
+              "Stove",
+              "Refrigerator",
+              "Eletric Kettle",
+              "Microwave",
+              "Coffe Machine"
+            ],
+            "LivingRoom": [
+              "Air conditioning",
+              "Television",
+              "Wi-fi",
+              "Board Games",
+              "Fireplace"
+            ],
+            "Bedroom": ["Bed Sheets", "Towels"],
+            "Bathroom": ["Hairdryer", "Towel dryer", "Shower"],
+            "Outside": ["Public Free Parking", "Balcony"]
           }
         },
         {
@@ -201,13 +302,25 @@
           "link": "alva",
           "buttonLink": "/",
           "available": "True",
-          "personNumber": "5",
+          "personNumber": "2 Adults + 2 Children",
           "comodities": {
-            "kitchen": [],
-            "livingRoom": [],
-            "bedroom": [],
-            "bathroom": [],
-            "outside": []
+            "Kitchen": [
+              "Stove",
+              "Refrigerator",
+              "Eletric Kettle",
+              "Microwave",
+              "Coffe Machine"
+            ],
+            "LivingRoom": [
+              "Air conditioning",
+              "Television",
+              "Wi-fi",
+              "Board Games",
+              "Fireplace"
+            ],
+            "Bedroom": ["Bed Sheets", "Towels"],
+            "Bathroom": ["Hairdryer", "Towel dryer", "Shower"],
+            "Outside": ["Public Free Parking", "Balcony"]
           }
         },
         {
@@ -217,13 +330,25 @@
           "link": "mondego",
           "buttonLink": "/",
           "available": "True",
-          "personNumber": "5",
+          "personNumber": "2 Adults + 2 Children",
           "comodities": {
-            "kitchen": [],
-            "livingRoom": [],
-            "bedroom": [],
-            "bathroom": [],
-            "outside": []
+            "Kitchen": [
+              "Stove",
+              "Refrigerator",
+              "Eletric Kettle",
+              "Microwave",
+              "Coffe Machine"
+            ],
+            "LivingRoom": [
+              "Air conditioning",
+              "Television",
+              "Wi-fi",
+              "Board Games",
+              "Fireplace"
+            ],
+            "Bedroom": ["Bed Sheets", "Towels"],
+            "Bathroom": ["Hairdryer", "Towel dryer", "Shower"],
+            "Outside": ["Public Free Parking", "Balcony"]
           }
         },
         {
@@ -233,13 +358,25 @@
           "link": "zezere",
           "buttonLink": "/",
           "available": "True",
-          "personNumber": "5",
+          "personNumber": "2 Adults + 2 Children",
           "comodities": {
-            "kitchen": [],
-            "livingRoom": [],
-            "bedroom": [],
-            "bathroom": [],
-            "outside": []
+            "Kitchen": [
+              "Stove",
+              "Refrigerator",
+              "Eletric Kettle",
+              "Microwave",
+              "Coffe Machine"
+            ],
+            "LivingRoom": [
+              "Air conditioning",
+              "Television",
+              "Wi-fi",
+              "Board Games",
+              "Fireplace"
+            ],
+            "Bedroom": ["Bed Sheets", "Towels"],
+            "Bathroom": ["Hairdryer", "Towel dryer", "Shower"],
+            "Outside": ["Public Free Parking", "Balcony"]
           }
         }
       ]
@@ -255,7 +392,14 @@
           "link": "betula",
           "buttonLink": "/",
           "available": "False",
-          "personNumber": "5"
+          "personNumber": "5",
+          "comodities": {
+            "Kitchen": [],
+            "LivingRoom": [],
+            "Bedroom": [],
+            "Bathroom": [],
+            "Outside": []
+          }
         },
         {
           "name": "Teixo Apartament",
@@ -266,11 +410,11 @@
           "available": "False",
           "personNumber": "5",
           "comodities": {
-            "kitchen": [],
-            "livingRoom": [],
-            "bedroom": [],
-            "bathroom": [],
-            "outside": []
+            "Kitchen": [],
+            "LivingRoom": [],
+            "Bedroom": [],
+            "Bathroom": [],
+            "Outside": []
           }
         },
         {
@@ -282,11 +426,11 @@
           "available": "False",
           "personNumber": "5",
           "comodities": {
-            "kitchen": [],
-            "livingRoom": [],
-            "bedroom": [],
-            "bathroom": [],
-            "outside": []
+            "Kitchen": [],
+            "LivingRoom": [],
+            "Bedroom": [],
+            "Bathroom": [],
+            "Outside": []
           }
         },
         {
@@ -298,11 +442,11 @@
           "available": "False",
           "personNumber": "5",
           "comodities": {
-            "kitchen": [],
-            "livingRoom": [],
-            "bedroom": [],
-            "bathroom": [],
-            "outside": []
+            "Kitchen": [],
+            "LivingRoom": [],
+            "Bedroom": [],
+            "Bathroom": [],
+            "Outside": []
           }
         }
       ]

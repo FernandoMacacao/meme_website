@@ -10,7 +10,7 @@ const InfoSection = ({ data }) => {
         <Grid item spacing={2} xs={12} md={6}>
           <Stack mb={5}>
             <Typography variant="h6" color={"var(--clr-primary)"}>
-              NOME DO APARTAMENTO
+              {data[language].localAccommodations.accommodations[0].name}
             </Typography>
             <Typography>Número de camas:</Typography>
             <Typography>Número de casas de banho:</Typography>
