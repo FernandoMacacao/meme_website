@@ -7,7 +7,7 @@ export const Info = ({ data }) => {
   return (
     <Card
       sx={{
-        width: 400,
+        width: { xs: 300, sm: 400 },
         height: 470,
         backgroundColor: "transparent",
         border: "0.5px solid var(--clr-primary)",

@@ -5,6 +5,7 @@ import Data from "./data/index.json";
 import { Box, Container } from "@mui/material";
 import { Info } from "./components/Info";
 import { Map } from "./components/Map";
+import Arrive from "./components/Arrive";
 
 export const Contacts = () => {
   const { language } = useContext(LanguageContext);
@@ -14,6 +15,7 @@ export const Contacts = () => {
         title={Data[language].title}
         subtitle={Data[language].subtitle}
       />
+      <Map />
       <Container
         maxWidth="md"
         sx={{
@@ -27,7 +29,7 @@ export const Contacts = () => {
           <Info key={id} data={inf} />
         ))}
       </Container>
-      <Map />
+      <Arrive data={Data[language].arrive}></Arrive>
     </Box>
   );
 };
