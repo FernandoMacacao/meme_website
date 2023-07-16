@@ -1,6 +1,5 @@
 import { Box, Button, Container, Typography } from "@mui/material";
 import React, { useContext } from "react";
-import { Link } from "react-router-dom";
 import { LanguageContext } from "configuration/app-context-manager/LanguageContext";
 import { useNavigate } from "react-router-dom";
 
@@ -42,7 +41,7 @@ const BannerContent = ({ data }) => {
         alt={data.name}
         src={`${require(`assets/images/${data.image}`)}`}
         style={{
-          width: "100vw",
+          width: "100%",
           maxHeight: "400px",
           objectFit: "cover",
           display: "block",
@@ -73,7 +72,9 @@ const BannerContent = ({ data }) => {
             variant="body1"
             color="secondary"
             mb={{ xs: 2, md: 3 }}
-            sx={{ textShadow: "0px 0px 2px var(--common-black)" }}
+            sx={{
+              textShadow: "0px 0px 2px var(--common-black)",
+            }}
           >
             {data.description}
           </Typography>
