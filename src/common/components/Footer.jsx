@@ -53,7 +53,7 @@ export const Footer = () => {
                     <Typography
                       variant="body2"
                       color="common.white"
-                      sx={{ "&:hover": { color: "#1893c6" } }}
+                      sx={{ "&:hover": { color: "#C0A661" } }}
                     >
                       {page.name}
                     </Typography>
@@ -97,7 +97,7 @@ export const Footer = () => {
                       variant="body2"
                       color="common.white"
                       ml={0.5}
-                      sx={{ "&:hover": { color: "#1893c6" } }}
+                      sx={{ "&:hover": { color: "#C0A661" } }}
                     >
                       {sm.name}
                     </Typography>
