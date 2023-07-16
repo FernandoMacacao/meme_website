@@ -14,7 +14,7 @@ const Section = ({ data }) => {
   const { language } = useContext(LanguageContext);
   const isFullWidth = useMediaQuery((theme) => theme.breakpoints.down("md"));
   return (
-    <Box mt={5} display="flex" width="100vw" sx={{ overflowX: "hidden" }}>
+    <Box mt={5} display="flex" width="100%" sx={{ overflowX: "hidden" }}>
       <Container maxWidth="lg">
         <Grid
           display="grid"
@@ -30,7 +30,7 @@ const Section = ({ data }) => {
               : { xs: '"col1" "col2"', md: '"col2 col1"' }
           }
         >
-          <Grid item gridArea="col1">
+          <Grid item gridArea="col1" display="flex" alignItems="center">
             <Box
               display="flex"
               sx={{
