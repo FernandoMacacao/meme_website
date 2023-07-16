@@ -47,18 +47,17 @@ export const Info = ({ data }) => {
                 isFullWidth ? undefined : "0.5px solid var(--clr-primary)"
               }
               width="100%"
-              height={isFullWidth ? undefined : "450px"}
+              minHeight={isFullWidth ? undefined : "450px"}
               display="flex"
               flexDirection="column"
               justifyContent="center"
               maxHeight="500px"
             >
-              <Container maxWidth="xl">
+              <Container maxWidth="xl" sx={{ my: { xs: 3, lg: 0 } }}>
                 <Typography
                   variant="h6"
                   color="primary"
                   textAlign={isFullWidth ? "center" : undefined}
-                  mt={{ xs: 3, md: 0 }}
                 >
                   {data.title}
                 </Typography>
