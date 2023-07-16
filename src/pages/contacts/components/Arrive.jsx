@@ -11,7 +11,7 @@ const Arrive = ({ data }) => {
       direction={"column"}
       maxWidth={850}
       mt={10}
-      spacing={2}
+      spacing={3}
       sx={{ width: { xs: 300, md: "100%" } }}
     >
       <Stack direction={"column"}>

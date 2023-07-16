@@ -22,7 +22,7 @@ export const Info = ({ data }) => {
       <CardContent>
         <SectionHeader title={data.title} />
         <Typography
-          sx={{ mb: 1.5, mt: 2.5 }}
+          sx={{ mb: 0, mt: 3.5 }}
           color="text.primary"
           fontWeight="bold"
           textAlign="center"
@@ -33,7 +33,7 @@ export const Info = ({ data }) => {
           {data.phone.number}
         </Typography>
         <Typography
-          sx={{ mb: 1.5, mt: 2.5 }}
+          sx={{ mb: 0, mt: 3.5 }}
           color="text.primary"
           fontWeight="bold"
           textAlign="center"
@@ -44,7 +44,7 @@ export const Info = ({ data }) => {
           {data.email.name}
         </Typography>
         <Typography
-          sx={{ mb: 1.5, mt: 2.5 }}
+          sx={{ mb: 0, mt: 3.5 }}
           color="text.primary"
           fontWeight="bold"
           textAlign="center"
@@ -55,7 +55,7 @@ export const Info = ({ data }) => {
           {data.address.name}
         </Typography>
         <Typography
-          sx={{ mb: 1.5, mt: 2.5 }}
+          sx={{ mb: 0, mt: 3.5 }}
           color="text.primary"
           fontWeight="bold"
           textAlign="center"
