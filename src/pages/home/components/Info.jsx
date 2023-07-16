@@ -4,11 +4,12 @@ import React from "react";
 export const Info = ({ data }) => {
   const isFullWidth = useMediaQuery((theme) => theme.breakpoints.down("md"));
   return (
-    <Box my={10}>
+    <Box my={10} display="flex" justifyContent="center">
       <Grid
         display="grid"
         alignItems="center"
         container
+        maxWidth="xl"
         columnSpacing={5}
         gridTemplateColumns={{
           xs: "1fr",
@@ -51,7 +52,6 @@ export const Info = ({ data }) => {
               display="flex"
               flexDirection="column"
               justifyContent="center"
-              maxHeight="500px"
             >
               <Container maxWidth="xl" sx={{ my: { xs: 3, lg: 0 } }}>
                 <Typography
