@@ -1,16 +1,34 @@
 import React, { useContext } from "react";
 import { Grid, Stack, Typography } from "@mui/material";
 import { LanguageContext } from "configuration/app-context-manager/LanguageContext";
+import { useLocation } from "react-router";
 
 const InfoSection = ({ data }) => {
   const { language } = useContext(LanguageContext);
+  const location = useLocation();
+
+  function getAccommodationInfo() {
+    const pathInfo = location.pathname.split("/")[3];
+
+    const localData = data[language].localAccommodations.accommodations;
+    const lmtData = data[language].lmtAccommodations.accommodations;
+
+    let accommodationInfo = localData.find((acc) => acc.link === pathInfo);
+
+    if (accommodationInfo === undefined) {
+      accommodationInfo = lmtData.find((acc) => acc.link === pathInfo);
+    }
+
+    return accommodationInfo;
+  }
+
   return (
     <>
       <Grid container spacing={6}>
         <Grid item spacing={2} xs={12} md={6}>
           <Stack mb={5}>
             <Typography variant="h6" color={"var(--clr-primary)"}>
-              {data[language].localAccommodations.accommodations[0].name}
+              {getAccommodationInfo().name}
             </Typography>
             <Typography>Número de camas:</Typography>
             <Typography>Número de casas de banho:</Typography>
