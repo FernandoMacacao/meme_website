@@ -1,10 +1,7 @@
 import { Stack, Typography } from "@mui/material";
-import React, { useContext } from "react";
-import { LanguageContext } from "configuration/app-context-manager/LanguageContext";
+import React from "react";
 
 const Arrive = ({ data }) => {
-  const { language } = useContext(LanguageContext);
-
   return (
     <Stack
       mx={"auto"}
