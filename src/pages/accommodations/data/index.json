@@ -11,7 +11,7 @@
           "link": "primeiracasinha",
           "buttonLink": "/",
           "available": "True",
-          "personNumber": "5 Adultos",
+          "personNumber": "Acomoda até 5 Adultos",
           "comodities": {
             "Cozinha": [
               "Forno",
@@ -43,7 +43,7 @@
           "link": "sotao",
           "buttonLink": "/",
           "available": "True",
-          "personNumber": "2 Adultos + 2 Crianças",
+          "personNumber": "Acomoda até 2 Adultos + 2 Crianças",
           "comodities": {
             "Cozinha": [
               "Fogão",
@@ -74,7 +74,7 @@
           "link": "alva",
           "buttonLink": "/",
           "available": "True",
-          "personNumber": "2 Adultos + 2 Crianças",
+          "personNumber": "Acomoda até 2 Adultos + 2 Crianças",
           "comodities": {
             "Cozinha": [
               "Fogão",
@@ -105,7 +105,7 @@
           "link": "mondego",
           "buttonLink": "/",
           "available": "True",
-          "personNumber": "2 Adultos + 2 Crianças",
+          "personNumber": "Acomoda até 2 Adultos + 2 Crianças",
           "comodities": {
             "Cozinha": [
               "Fogão",
@@ -136,7 +136,7 @@
           "link": "zezere",
           "buttonLink": "/",
           "available": "True",
-          "personNumber": "2 Adultos + 2 Crianças",
+          "personNumber": "Acomoda até 2 Adultos + 2 Crianças",
           "comodities": {
             "Cozinha": [
               "Fogão",
@@ -245,7 +245,7 @@
           "link": "primeiracasinha",
           "buttonLink": "/",
           "available": "True",
-          "personNumber": "5 Adults",
+          "personNumber": "Accommodates up to 5 Adults",
           "comodities": {
             "Kitchen": [
               "Stove",
@@ -255,7 +255,7 @@
               "Microwave",
               "Coffe Machine"
             ],
-            "LivingRoom": [
+            "Living room": [
               "Air conditioning",
               "Television",
               "Wi-fi",
@@ -274,7 +274,7 @@
           "link": "sotao",
           "buttonLink": "/",
           "available": "True",
-          "personNumber": "2 Adults + 2 Children",
+          "personNumber": "Accommodates up to 2 Adults + 2 Children",
           "comodities": {
             "Kitchen": [
               "Stove",
@@ -283,7 +283,7 @@
               "Microwave",
               "Coffe Machine"
             ],
-            "LivingRoom": [
+            "Living room": [
               "Air conditioning",
               "Television",
               "Wi-fi",
@@ -302,7 +302,7 @@
           "link": "alva",
           "buttonLink": "/",
           "available": "True",
-          "personNumber": "2 Adults + 2 Children",
+          "personNumber": "Accommodates up to 2 Adults + 2 Children",
           "comodities": {
             "Kitchen": [
               "Stove",
@@ -311,7 +311,7 @@
               "Microwave",
               "Coffe Machine"
             ],
-            "LivingRoom": [
+            "Living room": [
               "Air conditioning",
               "Television",
               "Wi-fi",
@@ -330,7 +330,7 @@
           "link": "mondego",
           "buttonLink": "/",
           "available": "True",
-          "personNumber": "2 Adults + 2 Children",
+          "personNumber": "Accommodates up to 2 Adults + 2 Children",
           "comodities": {
             "Kitchen": [
               "Stove",
@@ -358,7 +358,7 @@
           "link": "zezere",
           "buttonLink": "/",
           "available": "True",
-          "personNumber": "2 Adults + 2 Children",
+          "personNumber": "Accommodates up to 2 Adults + 2 Children",
           "comodities": {
             "Kitchen": [
               "Stove",
@@ -367,7 +367,7 @@
               "Microwave",
               "Coffe Machine"
             ],
-            "LivingRoom": [
+            "Living room": [
               "Air conditioning",
               "Television",
               "Wi-fi",
@@ -411,7 +411,7 @@
           "personNumber": "5",
           "comodities": {
             "Kitchen": [],
-            "LivingRoom": [],
+            "Living room": [],
             "Bedroom": [],
             "Bathroom": [],
             "Outside": []
@@ -427,7 +427,7 @@
           "personNumber": "5",
           "comodities": {
             "Kitchen": [],
-            "LivingRoom": [],
+            "Living room": [],
             "Bedroom": [],
             "Bathroom": [],
             "Outside": []
@@ -443,7 +443,7 @@
           "personNumber": "5",
           "comodities": {
             "Kitchen": [],
-            "LivingRoom": [],
+            "Living room": [],
             "Bedroom": [],
             "Bathroom": [],
             "Outside": []
