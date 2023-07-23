@@ -59,7 +59,7 @@ const Section = ({ data }) => {
                 color="primary"
                 sx={{
                   textAlign: { xs: "center", md: "left" },
-                  mb: 3,
+                  mb: { xs: 1, md: 3 },
                 }}
               >
                 {data.title}
