@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useContext } from "react";
 import Typography from "@mui/material/Typography";
 import { useFormik } from "formik";
 import {
@@ -14,6 +14,7 @@ import * as yup from "yup";
 import DOMPurify from "dompurify";
 import emailjs from "@emailjs/browser";
 import { notification } from "antd";
+import { LanguageContext } from "configuration/app-context-manager/LanguageContext";
 
 const PHONE_REGEX = "^(9[1236][0-9]) ?([0-9]{3}) ?([0-9]{3})$";
 const NAME_REGEX = "^[A-Za-zÀ-ÖØ-öø-ÿs.'-]{1,40}$";
@@ -23,6 +24,8 @@ const sanitize = (value) => {
 };
 
 export const MessageForm = ({ data }) => {
+  const { language } = useContext(LanguageContext);
+
   const isFullWidth = useMediaQuery((theme) => theme.breakpoints.down("md"));
 
   const schema = yup.object().shape({
@@ -82,17 +85,23 @@ export const MessageForm = ({ data }) => {
       .then(
         () => {
           notification.success({
-            message: "Mensagem enviada",
-            description: "A sua mensagem foi enviada com sucesso.",
+            message: language === "pt" ? "Mensagem enviada" : "Message sent",
+            description:
+              language === "pt"
+                ? "A sua mensagem foi enviada com sucesso."
+                : "Your message was successfully sent.",
             placement: "top",
           });
           resetForm();
         },
         () => {
           notification.error({
-            message: "Ocorreu um erro",
+            message:
+              language === "pt" ? "Ocorreu um erro" : "An error has occurred",
             description:
-              "Não conseguimos enviar a sua mensagem, por favor tente mais tarde",
+              language === "pt"
+                ? "Não conseguimos enviar a sua mensagem, por favor tente mais tarde"
+                : "We couldn't send your message, please try again later.",
             placement: "top",
           });
         }
