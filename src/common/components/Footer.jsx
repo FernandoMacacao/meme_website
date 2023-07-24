@@ -10,7 +10,7 @@ import { LanguageContext } from "configuration/app-context-manager/LanguageConte
 export const Footer = () => {
   const { language } = useContext(LanguageContext);
   return (
-    <>
+    <Box mt="auto">
       <Box p={5} sx={{ backgroundColor: "common.black" }}>
         <Container maxWidth="lg">
           <Grid container spacing={2}>
@@ -174,6 +174,6 @@ export const Footer = () => {
           </Typography>
         </Container>
       </Box>
-    </>
+    </Box>
   );
 };

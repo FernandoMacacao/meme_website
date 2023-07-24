@@ -14,7 +14,7 @@ const ImageSection = ({ specificAcc }) => {
 
   return (
     <Grid container spacing={4} mb={10}>
-      <Grid item xs={12} md={6}>
+      <Grid item xs={12} md={6} display="flex" justifyContent="center">
         <img
           src={require(`assets/images/${selectedPhoto}`)}
           style={{ maxWidth: "100%", height: "100%" }}
@@ -24,7 +24,7 @@ const ImageSection = ({ specificAcc }) => {
       <Grid item xs={12} md={6}>
         <Grid container spacing={4}>
           {notSelected.map((photo, index) => (
-            <Grid item xs={6} key={index}>
+            <Grid item xs={6} key={index} display="flex">
               <img
                 src={require(`assets/images/${photo}`)}
                 style={{
