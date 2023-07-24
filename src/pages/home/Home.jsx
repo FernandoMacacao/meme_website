@@ -14,7 +14,6 @@ export const Home = () => {
 
   return (
     <div>
-      <BannerText data={Data[language].hero} />
       <Hero />
       <Banner data={Data[language].banner[1]} />
       <Info data={Data[language].info[0]} />

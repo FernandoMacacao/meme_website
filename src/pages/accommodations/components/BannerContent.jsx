@@ -59,12 +59,14 @@ const BannerContent = ({ data }) => {
           zIndex: 1000,
         }}
       >
-        <Container maxWidth="md">
+        <Container maxWidth="md" sx={{ overflow: "hidden" }}>
           <Typography
             variant="h6"
             color="secondary"
             mb={{ xs: 1, md: 2 }}
-            sx={{ textShadow: "0px 0px 3px var(--common-black)" }}
+            sx={{
+              textShadow: "0px 0px 3px var(--common-black)",
+            }}
           >
             {data.name}
           </Typography>
@@ -74,6 +76,11 @@ const BannerContent = ({ data }) => {
             mb={{ xs: 2, md: 3 }}
             sx={{
               textShadow: "0px 0px 2px var(--common-black)",
+              overflow: "hidden",
+              display: "-webkit-box",
+              WebkitBoxOrient: "vertical",
+              WebkitLineClamp: 3,
+              whiteSpace: "pre-wrap",
             }}
           >
             {data.description}

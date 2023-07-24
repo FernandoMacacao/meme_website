@@ -12,7 +12,6 @@ export const Banner = ({ data }) => {
         sx={{
           textAlign: "center",
           maxWidth: "100vw",
-          minHeight: "200px",
           background: "var(--clr-primary)",
         }}
         mt={!data.hasImage ? -0.5 : undefined}
@@ -86,7 +85,7 @@ export const Banner = ({ data }) => {
             </Box>
           </LinkWithScroll>
         ) : (
-          <Box display="flex" alignItems="center" minHeight="200px">
+          <Box display="flex" alignItems="center" minHeight="200px" py={3}>
             <Container maxWidth="md">
               <Typography variant="h6" color="secondary" mb={2}>
                 {data.title}
