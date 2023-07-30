@@ -6,10 +6,10 @@ const ImageSection = ({ specificAcc }) => {
     `${specificAcc.link}_1.jpg`
   );
   const [notSelected, setNotSelected] = useState([
-    `${specificAcc.link}_1.jpg`,
-    `${specificAcc.link}_1.jpg`,
-    `${specificAcc.link}_1.jpg`,
-    `${specificAcc.link}_1.jpg`,
+    `${specificAcc.link}_2.jpg`,
+    `${specificAcc.link}_3.jpg`,
+    `${specificAcc.link}_4.jpg`,
+    `${specificAcc.link}_5.jpg`,
   ]);
 
   return (
