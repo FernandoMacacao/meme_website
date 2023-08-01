@@ -29,7 +29,7 @@ export const Navbar = () => {
 
   return (
     <>
-      <AppBar color="secondary" sx={{ zIndex: 10 }}>
+      <AppBar color="secondary" sx={{ zIndex: 1001 }}>
         <Container maxWidth="xl">
           <Toolbar disableGutters>
             <Box
