@@ -36,13 +36,13 @@
         "title": "Alojamentos Locais",
         "text": "Ideal para uma escapadela na natureza",
         "image": "acc_2.jpg",
-        "link": "/"
+        "link": "no need"
       },
       {
         "title": "Alojamentos de média e longa duração",
         "text": "Para aqueles que não querem deixar nada por explorar",
         "image": "acc_1.jpg",
-        "link": "/"
+        "link": "no need"
       }
     ],
     "details": {
@@ -132,13 +132,13 @@
         "title": "Local Accommodations",
         "text": "Ideal for a nature getaway",
         "image": "acc_2.jpg",
-        "link": "/"
+        "link": "no need"
       },
       {
         "title": "Medium and Long Term Accommodations",
         "text": "For those who don't want to leave anything unexplored",
         "image": "acc_1.jpg",
-        "link": "/"
+        "link": "no need"
       }
     ],
     "details": {

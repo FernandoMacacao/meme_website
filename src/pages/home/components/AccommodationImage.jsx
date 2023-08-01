@@ -51,7 +51,10 @@ function AccommodationImage({ data }) {
           >
             {data.text}
           </Typography>
-          <LinkWithScroll to={data.link} style={{ textDecoration: "none" }}>
+          <LinkWithScroll
+            to={`/${language}/accommodations`}
+            style={{ textDecoration: "none" }}
+          >
             <Button variant="contained" color="primary" fullWidth={isMobile}>
               {language === "pt" ? "Saiba Mais!" : "See More!"}
             </Button>
