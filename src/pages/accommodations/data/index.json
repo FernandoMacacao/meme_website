@@ -7,7 +7,7 @@
         {
           "name": "A Primeira Casinha do Mé-Mé",
           "description": "A Primeira Casinha do Mé-Mé é um apartamento confortável com dois quartos, uma cozinha totalmente equipada, uma sala com salamandra e uma casa de banho espaçosa. Convida-nos aos Serões em família, a contar e ouvir histórias pela noite dentro até o cansaço tomar conta de nós.  ",
-          "image": "ex_1.jpg",
+          "image": "primeiracasinha_1.jpg",
           "link": "primeiracasinha",
           "buttonLink": "/",
           "available": "True",
@@ -39,7 +39,7 @@
         {
           "name": "O Sotão do Mé-Mé",
           "description": "O Sotão do Mé-Mé convida-nos, no Inverno, a uma aconchegante noite junto à salamandra, acompanhada de um filme. E no Verão, apela-nos a um sesta de fim de tarde, depois de todo o despertar de sentidos que a Serra nos proporciona…",
-          "image": "ex_2.jpg",
+          "image": "sotao_1.jpg",
           "link": "sotao",
           "buttonLink": "/",
           "available": "True",
@@ -241,7 +241,7 @@
         {
           "name": "The first Mé-Mé home",
           "description": "The First Mé-Mé's Home is a comfortable apartment with two bedrooms, a fully equipped kitchen, a living room with a fireplace, and a spacious bathroom. It invites us to family evenings, to tell and listen to stories late into the night until tiredness takes over us.",
-          "image": "ex_1.jpg",
+          "image": "primeiracasinha_1.jpg",
           "link": "primeiracasinha",
           "buttonLink": "/",
           "available": "True",
@@ -270,7 +270,7 @@
         {
           "name": "Mé-Mé's attic",
           "description": "Mé-Mé's Attic invites us, in the winter, to a cozy night by the fireplace, accompanied by a movie. And in the summer, it calls us to an afternoon nap, after all the awakening of senses that the mountains provide us...",
-          "image": "ex_2.jpg",
+          "image": "sotao_1.jpg",
           "link": "sotao",
           "buttonLink": "/",
           "available": "True",

@@ -141,6 +141,7 @@ export const Footer = () => {
                           color="common.white"
                           ml={0.5}
                           textAlign={{ xs: "center", md: "left" }}
+                          sx={{ "&:hover": { color: "#C0A661" } }}
                         >
                           {contact.text}
                         </Typography>
@@ -170,7 +171,8 @@ export const Footer = () => {
             color="common.white"
             textAlign="center"
           >
-            2023 © All rights reserved - Casinhas do mémé - Morada, CP
+            2023 © All rights reserved - Casinhas do mémé - R. Joaquim Pereira
+            de Matos, Manteigas
           </Typography>
         </Container>
       </Box>

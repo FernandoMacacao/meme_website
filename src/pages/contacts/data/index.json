@@ -5,27 +5,42 @@
     "info": [
       {
         "title": "Alojamentos locais",
-        "phone": { "text": "Telemóvel", "number": "+351 999 999 999" },
+        "phone": { "text": "Telemóvel", "number": "+351 960 335 171" },
         "email": { "text": "Email", "name": "casinhas.meme@gmail.com" },
-        "address": { "text": "Morada", "name": "Morada, CP" },
+        "address": {
+          "text": "Morada",
+          "name": "R. Joaquim Pereira de Matos, Manteigas"
+        },
         "social": {
           "text": "Redes Sociais",
           "content": [
-            { "type": "Facebook", "link": "/" },
-            { "type": "Instagram", "link": "/" }
+            {
+              "type": "Facebook",
+              "link": "https://pt-pt.facebook.com/casinhasdomeme"
+            },
+            {
+              "type": "Instagram",
+              "link": "https://www.instagram.com/casinhas.meme/"
+            }
           ]
         }
       },
       {
         "title": "Alojamentos de média e longa duração",
-        "phone": { "text": "Telemóvel", "number": "+351 999 999 999" },
+        "phone": { "text": "Telemóvel", "number": "+351 960 335 171" },
         "email": { "text": "Email", "name": "casinhas.meme@gmail.com" },
-        "address": { "text": "Morada", "name": "Morada, CP" },
+        "address": { "text": "Morada", "name": "Temporariamente Indisponível" },
         "social": {
           "text": "Redes Sociais",
           "content": [
-            { "type": "Facebook", "link": "/" },
-            { "type": "Instagram", "link": "/" }
+            {
+              "type": "Facebook",
+              "link": "https://pt-pt.facebook.com/casinhasdomeme"
+            },
+            {
+              "type": "Instagram",
+              "link": "https://www.instagram.com/casinhas.meme/"
+            }
           ]
         }
       }
@@ -52,27 +67,42 @@
     "info": [
       {
         "title": "Local Accommodations",
-        "phone": { "text": "Phone Number", "number": "+351 999 999 999" },
+        "phone": { "text": "Phone Number", "number": "+351 960 335 171" },
         "email": { "text": "Email", "name": "casinhas.meme@gmail.com" },
-        "address": { "text": "Address", "name": "Morada, CP" },
+        "address": {
+          "text": "Address",
+          "name": "R. Joaquim Pereira de Matos, Manteigas"
+        },
         "social": {
           "text": "Social Media",
           "content": [
-            { "type": "Facebook", "link": "/" },
-            { "type": "Instagram", "link": "/" }
+            {
+              "type": "Facebook",
+              "link": "https://pt-pt.facebook.com/casinhasdomeme"
+            },
+            {
+              "type": "Instagram",
+              "link": "https://www.instagram.com/casinhas.meme/"
+            }
           ]
         }
       },
       {
         "title": "Long and Medium Term Accommodations",
-        "phone": { "text": "Phone Number", "number": "+351 999 999 999" },
+        "phone": { "text": "Phone Number", "number": "+351 960 335 171" },
         "email": { "text": "Email", "name": "casinhas.meme@gmail.com" },
-        "address": { "text": "Address", "name": "Morada, CP" },
+        "address": { "text": "Address", "name": "Currently Unavailable" },
         "social": {
           "text": "Social Media",
           "content": [
-            { "type": "Facebook", "link": "/" },
-            { "type": "Instagram", "link": "/" }
+            {
+              "type": "Facebook",
+              "link": "https://pt-pt.facebook.com/casinhasdomeme"
+            },
+            {
+              "type": "Instagram",
+              "link": "https://www.instagram.com/casinhas.meme/"
+            }
           ]
         }
       }
