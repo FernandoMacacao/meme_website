@@ -1,13 +1,13 @@
 {
   "pt": {
     "hero": {
-      "title": "Bem-vindo",
+      "title": "As Casinhas do Mé-Mé",
       "text": "Bem-vindo"
     },
     "banner": [
       {
         "title": "Serra da Estrela",
-        "text": "Deixe-se deslumbrar pela sua magnificiência",
+        "text": "Fique a conhecer os pontos icónicos da Serra",
         "hasImage": true,
         "image": "serra.jpg"
       },
@@ -48,8 +48,8 @@
     "details": {
       "title": "As Casinhas do Mé-Mé",
       "subtitle": "Mais que um alojamento, uma vivência inigualável",
-      "text1": "Etiam sed leo magna. In efficitur egestas purus a cursus. Donec in lorem neque. Aenean rhoncus ultrices enim nec accumsan. Integer imperdiet cursus dictum. Mauris porta leo et tincidunt posuere. Nulla tortor dolor, dignissim non consectetur a, vehicula a diam. Aliquam cursus orci in elit ultricies, in bibendum dolor consectetur. Integer pharetra enim dolor, sit amet volutpat metus laoreet eu.",
-      "text2": "Quisque ac metus id purus volutpat auctor. Pellentesque diam magna, efficitur vitae nisi a, egestas sagittis velit. Suspendisse potenti. Phasellus nec massa auctor, accumsan odio ac, faucibus ex. Vestibulum consectetur sapien libero, sed volutpat dolor congue id. Nunc quis dui imperdiet turpis iaculis mattis ac nec enim. Aenean eleifend rutrum tellus at feugiat."
+      "text1": "Em Pleno Coração da Serra da Estrela, com paisagens multicolores e tradições milenares, abre-nos os braços a Vila de Manteigas. No Outono, as folhas douradas das faias enchem de magia o nosso olhar. Na Primavera os mil tons de verde, as flores, as águas das fontes, a neve a derreter, convidam-nos à aventura.",
+      "text2": "No Verão as lagoas, as praias, o sol, as noites longas, relaxam-nos e, no Inverno, a neve e as chaminés apelam ao aconchego. As Casinhas do Mé-Mé convidam-no para experiências inesquecíveis o ano inteiro. Deixe-se preencher pelo o brilho da Estrela!"
     },
     "form": {
       "title": "Envie-nos uma mensagem",
@@ -103,7 +103,7 @@
     "banner": [
       {
         "title": "Serra da Estrela",
-        "text": "Let yourself be amazed by its magnificence.",
+        "text": "Discover the iconic landmarks of the Serra",
         "hasImage": true,
         "image": "serra.jpg"
       },
@@ -144,8 +144,8 @@
     "details": {
       "title": "As Casinhas do Mé-Mé",
       "subtitle": "More than just lodging, an unparalleled experience",
-      "text1": "Etiam sed leo magna. In efficitur egestas purus a cursus. Donec in lorem neque. Aenean rhoncus ultrices enim nec accumsan. Integer imperdiet cursus dictum. Mauris porta leo et tincidunt posuere. Nulla tortor dolor, dignissim non consectetur a, vehicula a diam. Aliquam cursus orci in elit ultricies, in bibendum dolor consectetur. Integer pharetra enim dolor, sit amet volutpat metus laoreet eu.",
-      "text2": "Quisque ac metus id purus volutpat auctor. Pellentesque diam magna, efficitur vitae nisi a, egestas sagittis velit. Suspendisse potenti. Phasellus nec massa auctor, accumsan odio ac, faucibus ex. Vestibulum consectetur sapien libero, sed volutpat dolor congue id. Nunc quis dui imperdiet turpis iaculis mattis ac nec enim. Aenean eleifend rutrum tellus at feugiat."
+      "text1": "In the heart of Serra da Estrela, with its multicolored landscapes and ancient traditions, the village of Manteigas welcomes us with open arms. In the autumn, the golden leaves of the beech trees enchant our gaze with magic. In the spring, the thousand shades of green, the flowers, the flowing springs, and the melting snow invite us to embark on adventures.",
+      "text2": "During the summer, the lagoons, the beaches, the sun, and the long nights relax us, while in winter, the snow and chimneys call for cozy moments. As casinhas do Mé-Mé offer unforgettable experiences all year round. Let yourself be fulfilled by the brilliance of the Estrela!"
     },
     "form": {
       "title": "Send us a Message",
