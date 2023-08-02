@@ -9,7 +9,8 @@
         "email": { "text": "Email", "name": "casinhas.meme@gmail.com" },
         "address": {
           "text": "Morada",
-          "name": "R. Joaquim Pereira de Matos, Manteigas"
+          "name": " Rua Joaquim Pereira de Matos, 78, 6260-143, Manteigas (Primeira Casinha e Sótão)",
+          "nameSec": "Largo da Liberdade, 4, 6260-148, Manteigas (Mansão do Mé-Mé)"
         },
         "social": {
           "text": "Redes Sociais",
@@ -29,7 +30,10 @@
         "title": "Alojamentos de média e longa duração",
         "phone": { "text": "Telemóvel", "number": "+351 960 335 171" },
         "email": { "text": "Email", "name": "casinhas.meme@gmail.com" },
-        "address": { "text": "Morada", "name": "Temporariamente Indisponível" },
+        "address": {
+          "text": "Morada",
+          "name": "Rua Dr. Pereira de Matos, 59/61, 6260-117, Manteigas"
+        },
         "social": {
           "text": "Redes Sociais",
           "content": [
@@ -71,7 +75,8 @@
         "email": { "text": "Email", "name": "casinhas.meme@gmail.com" },
         "address": {
           "text": "Address",
-          "name": "R. Joaquim Pereira de Matos, Manteigas"
+          "name": " Rua Joaquim Pereira de Matos, 78, 6260-143, Manteigas (First Home and Attic)",
+          "nameSec": "Largo da Liberdade, 4, 6260-148, Manteigas (Mé-Mé's Mansion)"
         },
         "social": {
           "text": "Social Media",
@@ -91,7 +96,10 @@
         "title": "Long and Medium Term Accommodations",
         "phone": { "text": "Phone Number", "number": "+351 960 335 171" },
         "email": { "text": "Email", "name": "casinhas.meme@gmail.com" },
-        "address": { "text": "Address", "name": "Currently Unavailable" },
+        "address": {
+          "text": "Address",
+          "name": "Rua Dr. Pereira de Matos, 59/61, 6260-117, Manteigas"
+        },
         "social": {
           "text": "Social Media",
           "content": [

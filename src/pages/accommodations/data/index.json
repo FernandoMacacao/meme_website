@@ -6,7 +6,7 @@
       "accommodations": [
         {
           "name": "A Primeira Casinha do Mé-Mé",
-          "description": "A Primeira Casinha do Mé-Mé é um apartamento confortável com dois quartos, uma cozinha totalmente equipada, uma sala com salamandra e uma casa de banho espaçosa. Convida-nos aos Serões em família, a contar e ouvir histórias pela noite dentro até o cansaço tomar conta de nós.  ",
+          "description": "A Primeira Casinha do Mé-Mé é um apartamento confortável com dois quartos, uma cozinha totalmente equipada, uma sala com salamandra e uma casa de banho espaçosa. Convida-nos aos Serões em família, a contar e ouvir histórias pela noite dentro até o cansaço tomar conta de nós.",
           "image": "primeiracasinha_1.jpg",
           "link": "primeiracasinha",
           "buttonLink": "/",
@@ -69,7 +69,7 @@
         },
         {
           "name": "Apartamento Alva",
-          "description": "O Alva é jovial, prático e com ligeiros “retoques” vintage. Convida-nos às caminhadas, aos mergulhos no rio, aos passeios de bicicleta, às mil promessas que os dias na Serra nos proporcionam.",
+          "description": "O Alva é jovial, prático e com ligeiros “retoques” vintage. Convida-nos às caminhadas, aos mergulhos no rio, aos passeios de bicicleta, às mil promessas que os dias na Serra nos proporcionam. (Faz parte da mansão do Mé-Mé) ",
           "image": "alva_1.jpg",
           "link": "alva",
           "buttonLink": "/",
@@ -100,7 +100,7 @@
         },
         {
           "name": "Apartamento Mondêgo",
-          "description": "Com uma bela vista para o Vale Glaciar, o Mondêgo convida-nos ao repouso e à contemplação. Depois de um dia em cheio, contempla-se o Vale, as estrelas, o luar, inspiram-se os aromas da Serra e fazem-se mil planos para as aventuras do dia seguinte.",
+          "description": "Com uma bela vista para o Vale Glaciar, o Mondêgo convida-nos ao repouso e à contemplação. Depois de um dia em cheio, contempla-se o Vale, as estrelas, o luar, inspiram-se os aromas da Serra e fazem-se mil planos para as aventuras do dia seguinte. (Faz parte da mansão do Mé-Mé) ",
           "image": "mondego_1.jpg",
           "link": "mondego",
           "buttonLink": "/",
@@ -131,7 +131,7 @@
         },
         {
           "name": "Apartamento Zêzere",
-          "description": "O Zêzere é um apartamento cheio de luz e sol que convida a relaxar na varanda nas longas tardes de verão, depois de uma ida às praias fluviais da região ou após uma bela caminhada pelos inúmeros trilhos na Serra.",
+          "description": "O Zêzere é um apartamento cheio de luz e sol que convida a relaxar na varanda nas longas tardes de verão, depois de uma ida às praias fluviais da região ou após uma bela caminhada pelos inúmeros trilhos na Serra. (Faz parte da mansão do Mé-Mé) ",
           "image": "zezere_1.jpg",
           "link": "zezere",
           "buttonLink": "/",
@@ -297,7 +297,7 @@
         },
         {
           "name": "Alva Apartament",
-          "description": "Alva is youthful, practical, and with slight vintage touches. It invites us to go for walks, to swim in the river, to ride bicycles, and to the thousand promises that the days in the mountains offer us.",
+          "description": "Alva is youthful, practical, and with slight vintage touches. It invites us to go for walks, to swim in the river, to ride bicycles, and to the thousand promises that the days in the mountains offer us. (Part of Mé-Mé's mansion) ",
           "image": "alva_1.jpg",
           "link": "alva",
           "buttonLink": "/",
@@ -325,7 +325,7 @@
         },
         {
           "name": "Mondêgo Apartament",
-          "description": "With a beautiful view of the Glacial Valley, Mondêgo invites us to rest and contemplate. After a fulfilling day, one can admire the valley, the stars, the moonlight, be inspired by the scents of the mountains, and make a thousand plans for the adventures of the next day.",
+          "description": "With a beautiful view of the Glacial Valley, Mondêgo invites us to rest and contemplate. After a fulfilling day, one can admire the valley, the stars, the moonlight, be inspired by the scents of the mountains, and make a thousand plans for the adventures of the next day. (Part of Mé-Mé's mansion) ",
           "image": "mondego_1.jpg",
           "link": "mondego",
           "buttonLink": "/",
@@ -353,7 +353,7 @@
         },
         {
           "name": "Zêzere Apartament",
-          "description": "Zêzere is a bright and sunny apartment that invites relaxation on the balcony during the long summer afternoons, after a visit to the river beaches in the region or after a beautiful hike along the numerous trails in the mountains.",
+          "description": "Zêzere is a bright and sunny apartment that invites relaxation on the balcony during the long summer afternoons, after a visit to the river beaches in the region or after a beautiful hike along the numerous trails in the mountains. (Part of Mé-Mé's mansion) ",
           "image": "zezere_1.jpg",
           "link": "zezere",
           "buttonLink": "/",

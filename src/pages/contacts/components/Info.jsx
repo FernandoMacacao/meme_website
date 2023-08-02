@@ -54,6 +54,9 @@ export const Info = ({ data }) => {
         <Typography variant="body1" textAlign="center">
           {data.address.name}
         </Typography>
+        <Typography variant="body1" textAlign="center">
+          {data.address.nameSec}
+        </Typography>
         <Typography
           sx={{ mb: 0, mt: 3.5 }}
           color="text.primary"
