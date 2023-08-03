@@ -1,14 +1,15 @@
 import { Box, Button, Container, Typography } from "@mui/material";
 import React, { useContext } from "react";
 import { LanguageContext } from "configuration/app-context-manager/LanguageContext";
-import { useNavigate } from "react-router-dom";
 
 const BannerContent = ({ data }) => {
-  const navigate = useNavigate();
-  const onClick = () => {
-    navigate(`${data.buttonLink}`);
-  };
   const { language } = useContext(LanguageContext);
+
+  const onClick = (event) => {
+    window.open(`${data.buttonLink}`);
+    event.stopPropagation();
+  };
+
   return (
     <Box
       sx={{
@@ -46,7 +47,7 @@ const BannerContent = ({ data }) => {
           objectFit: "cover",
           display: "block",
           transition: "transform 0.5s",
-          filter: "brightness(70%)",
+          filter: "brightness(60%)",
         }}
       />
       <Box
@@ -86,7 +87,12 @@ const BannerContent = ({ data }) => {
             {data.description}
           </Typography>
           {data.available === "True" ? (
-            <Button variant="contained" color="primary" onClick={onClick}>
+            <Button
+              variant="contained"
+              color="primary"
+              onClick={onClick}
+              target="_blank"
+            >
               {language === "pt" ? "Reserve Online!" : "Book Online!"}
             </Button>
           ) : (

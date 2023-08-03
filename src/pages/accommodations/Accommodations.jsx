@@ -7,6 +7,7 @@ import { Box } from "@mui/material";
 
 export const Accommodations = () => {
   const { language } = useContext(LanguageContext);
+
   return (
     <>
       <Box mt={10}>

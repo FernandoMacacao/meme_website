@@ -1,17 +1,25 @@
 import React, { useContext } from "react";
-import { LinkWithScroll } from "common/components/LinkWithScroll";
 import { LanguageContext } from "configuration/app-context-manager/LanguageContext";
 import BannerContent from "./BannerContent";
+import { useNavigate } from "react-router";
+import { Box } from "@mui/material";
+import { animateScroll as scroll } from "react-scroll";
 
 const Accommodation = ({ data }) => {
   const { language } = useContext(LanguageContext);
+  const navigate = useNavigate();
+
+  const onClick = () => {
+    navigate(`/${language}/accommodations/${data.link}`);
+    scroll.scrollToTop({ duration: 200, smooth: "smooth" });
+  };
 
   return (
     <>
       {data.available === "True" ? (
-        <LinkWithScroll to={`/${language}/accommodations/${data.link}`}>
+        <Box onClick={onClick} sx={{ cursor: "pointer" }}>
           <BannerContent data={data} />
-        </LinkWithScroll>
+        </Box>
       ) : (
         <BannerContent data={data} />
       )}
