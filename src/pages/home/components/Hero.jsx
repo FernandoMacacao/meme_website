@@ -43,7 +43,7 @@ export const Hero = () => {
             textShadow: "0px 0px 3px var(--common-black)",
           }}
         >
-          As Casinhas do Mé-Mé
+          Casinhas do Mé-Mé
         </Typography>
         <Button
           href={`accommodations`}

@@ -1,9 +1,5 @@
 {
   "pt": {
-    "hero": {
-      "title": "As Casinhas do Mé-Mé",
-      "text": "Bem-vindo"
-    },
     "banner": [
       {
         "title": "Serra da Estrela",
@@ -96,10 +92,6 @@
     }
   },
   "en": {
-    "hero": {
-      "title": "Welcome",
-      "text": "Welcome"
-    },
     "banner": [
       {
         "title": "Serra da Estrela",

@@ -68,6 +68,7 @@ export const Info = ({ data }) => {
         {data.social.content.map((soc, id) => (
           <Link
             to={soc.link}
+            target="_blank"
             style={{ textDecoration: "none", color: "var(--clr-secondary)" }}
           >
             <Typography variant="body1" textAlign="center">

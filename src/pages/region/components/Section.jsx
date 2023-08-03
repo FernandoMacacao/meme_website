@@ -72,7 +72,11 @@ const Section = ({ data }) => {
               >
                 {data.text}
               </Typography>
-              <LinkWithScroll to={data.link} style={{ textDecoration: "none" }}>
+              <LinkWithScroll
+                to={data.link}
+                target="_blank"
+                style={{ textDecoration: "none" }}
+              >
                 <Button
                   variant="contained"
                   color="primary"
