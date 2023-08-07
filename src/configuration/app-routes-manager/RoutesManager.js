@@ -21,7 +21,6 @@ export const RoutesManager = () => {
   const { language } = useContext(LanguageContext);
   const navigate = useNavigate();
   const location = useLocation();
-  const NotFoundLayout = ({ children }) => <>{children}</>;
 
   useEffect(() => {
     navigate(`/${language}/${location.pathname.substring(4)}`, {
@@ -44,15 +43,7 @@ export const RoutesManager = () => {
       <Route path="/en/policy" element={<Policy />} />
       <Route path="/pt/contacts" element={<Contacts />} />
       <Route path="/en/contacts" element={<Contacts />} />
-      <Route
-        path="*"
-        exact
-        element={
-          <NotFoundLayout>
-            <NotFound />
-          </NotFoundLayout>
-        }
-      ></Route>
+      <Route path="*" exact element={<NotFound />} />
     </Routes>
   );
 };
