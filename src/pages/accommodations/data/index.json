@@ -6,7 +6,7 @@
       "accommodations": [
         {
           "name": "A Primeira Casinha do Mé-Mé",
-          "description": "A Primeira Casinha do Mé-Mé é um apartamento confortável com dois quartos, uma cozinha totalmente equipada, uma sala com salamandra e uma casa de banho espaçosa. Convida-nos aos Serões em família, a contar e ouvir histórias pela noite dentro até o cansaço tomar conta de nós.",
+          "description": "A Primeira Casinha do Mé-Mé fica localizada no centro da Vila da Manteigas. Em tempos idos esteve inserida num antigo bairro fabril. Atualmente, é um apartamento confortável com dois quartos, uma cozinha totalmente equipada, uma sala com salamandra e uma casa de banho espaçosa. Convida-nos aos Serões em família, a contar e ouvir histórias pela noite dentro até o cansaço tomar conta de nós.  ",
           "image": "primeiracasinha_1.jpg",
           "link": "primeiracasinha",
           "buttonLink": "https://www.booking.com/hotel/pt/a-primeira-casinha-do-me-me.pt-pt.html",
@@ -18,7 +18,8 @@
               "Fogão",
               "Frigorífico",
               "Micro-ondas",
-              "Máquina de Café"
+              "Máquina de Café",
+              "...Utensìlios básicos de cozinha"
             ],
             "Sala de estar": [
               "Ar Condicionado",
@@ -240,7 +241,7 @@
       "accommodations": [
         {
           "name": "The first Mé-Mé home",
-          "description": "The First Mé-Mé's Home is a comfortable apartment with two bedrooms, a fully equipped kitchen, a living room with a fireplace, and a spacious bathroom. It invites us to family evenings, to tell and listen to stories late into the night until tiredness takes over us.",
+          "description": "The first Mé-Mé home is located in the center of the village of Manteigas. In the past, it was part of an old factory district. Currently, it is a comfortable apartment with two bedrooms, a fully equipped kitchen, a living room with a fireplace, and a spacious bathroom. It invites us to spend evenings with family, sharing and listening to stories late into the night until tiredness takes over us.",
           "image": "primeiracasinha_1.jpg",
           "link": "primeiracasinha",
           "buttonLink": "https://www.booking.com/hotel/pt/a-primeira-casinha-do-me-me.pt-pt.html",
