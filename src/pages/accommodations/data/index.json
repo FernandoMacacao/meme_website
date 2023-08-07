@@ -2,7 +2,7 @@
   "pt": {
     "localAccommodations": {
       "title": "Alojamentos locais",
-      "subtitle": "Ideal para uma escapadela na natureza",
+      "subtitle": "Ideais para uma escapadela na natureza",
       "accommodations": [
         {
           "name": "A Primeira Casinha do Mé-Mé",
@@ -68,7 +68,7 @@
           }
         },
         {
-          "name": "Apartamento Alva",
+          "name": "Mansão do Mé-Mé: Apartamento Alva",
           "description": "O Alva é jovial, prático e com ligeiros “retoques” vintage. Convida-nos às caminhadas, aos mergulhos no rio, aos passeios de bicicleta, às mil promessas que os dias na Serra nos proporcionam. (Faz parte da mansão do Mé-Mé) ",
           "image": "alva_1.jpg",
           "link": "alva",
@@ -99,8 +99,8 @@
           }
         },
         {
-          "name": "Apartamento Mondêgo",
-          "description": "Com uma bela vista para o Vale Glaciar, o Mondêgo convida-nos ao repouso e à contemplação. Depois de um dia em cheio, contempla-se o Vale, as estrelas, o luar, inspiram-se os aromas da Serra e fazem-se mil planos para as aventuras do dia seguinte. (Faz parte da mansão do Mé-Mé) ",
+          "name": "Mansão do Mé-Mé: Apartamento Mondego",
+          "description": "Com uma bela vista para o Vale Glaciar, o Mondego convida-nos ao repouso e à contemplação. Depois de um dia em cheio, contempla-se o Vale, as estrelas, o luar, inspiram-se os aromas da Serra e fazem-se mil planos para as aventuras do dia seguinte. (Faz parte da mansão do Mé-Mé) ",
           "image": "mondego_1.jpg",
           "link": "mondego",
           "buttonLink": "/",
@@ -130,7 +130,7 @@
           }
         },
         {
-          "name": "Apartamento Zêzere",
+          "name": "Mansão do Mé-Mé: Apartamento Zêzere",
           "description": "O Zêzere é um apartamento cheio de luz e sol que convida a relaxar na varanda nas longas tardes de verão, depois de uma ida às praias fluviais da região ou após uma bela caminhada pelos inúmeros trilhos na Serra. (Faz parte da mansão do Mé-Mé) ",
           "image": "zezere_1.jpg",
           "link": "zezere",
@@ -163,7 +163,7 @@
       ]
     },
     "lmtAccommodations": {
-      "title": "Alojamentos de Média e Longa duração",
+      "title": "Alojamentos para arrendamento de Média e Longa duração",
       "subtitle": "Para aqueles que não querem deixar nada por explorar",
       "accommodations": [
         {
@@ -199,10 +199,10 @@
           }
         },
         {
-          "name": "Apartamento Castanheira",
-          "description": "Entre num reino de puro encanto no Apartamento Castanheira, um apartamento excepcional que tem lugar no coração da etérea Serra da Estrela. Desvende os segredos dos pores do sol de inverno e das noites estreladas, que, assumem o protagonismo e transformam momentos comuns em memórias extraordinárias. No Apartamento Castanheira, o ordinário desaparece, e um mundo de maravilhas desdobra-se à sua porta.",
+          "name": "Apartamento Castanheiro",
+          "description": "Entre num reino de puro encanto no Apartamento Castanheiro, um apartamento excepcional que tem lugar no coração da etérea Serra da Estrela. Desvende os segredos dos pores do sol de inverno e das noites estreladas, que, assumem o protagonismo e transformam momentos comuns em memórias extraordinárias. No Apartamento Castanheiro, o ordinário desaparece, e um mundo de maravilhas desdobra-se à sua porta.",
           "image": "ex_3.jpg",
-          "link": "castanheira",
+          "link": "castanheiro",
           "buttonLink": "/",
           "available": "False",
           "personNumber": "5",
@@ -296,7 +296,7 @@
           }
         },
         {
-          "name": "Alva Apartament",
+          "name": "Mé-Mé's Mansion: Alva Apartament",
           "description": "Alva is youthful, practical, and with slight vintage touches. It invites us to go for walks, to swim in the river, to ride bicycles, and to the thousand promises that the days in the mountains offer us. (Part of Mé-Mé's mansion) ",
           "image": "alva_1.jpg",
           "link": "alva",
@@ -324,8 +324,8 @@
           }
         },
         {
-          "name": "Mondêgo Apartament",
-          "description": "With a beautiful view of the Glacial Valley, Mondêgo invites us to rest and contemplate. After a fulfilling day, one can admire the valley, the stars, the moonlight, be inspired by the scents of the mountains, and make a thousand plans for the adventures of the next day. (Part of Mé-Mé's mansion) ",
+          "name": "Mé-Mé's Mansion: Mondego Apartament",
+          "description": "With a beautiful view of the Glacial Valley, Mondego invites us to rest and contemplate. After a fulfilling day, one can admire the valley, the stars, the moonlight, be inspired by the scents of the mountains, and make a thousand plans for the adventures of the next day. (Part of Mé-Mé's mansion) ",
           "image": "mondego_1.jpg",
           "link": "mondego",
           "buttonLink": "/",
@@ -352,7 +352,7 @@
           }
         },
         {
-          "name": "Zêzere Apartament",
+          "name": "Mé-Mé's Mansion: Zêzere Apartament",
           "description": "Zêzere is a bright and sunny apartment that invites relaxation on the balcony during the long summer afternoons, after a visit to the river beaches in the region or after a beautiful hike along the numerous trails in the mountains. (Part of Mé-Mé's mansion) ",
           "image": "zezere_1.jpg",
           "link": "zezere",
@@ -382,7 +382,7 @@
       ]
     },
     "lmtAccommodations": {
-      "title": "Long and Medium Term Accommodations",
+      "title": "Long and Medium Term Rental Accommodations",
       "subtitle": "For those who don't want to leave anything unexplored",
       "accommodations": [
         {
@@ -418,10 +418,10 @@
           }
         },
         {
-          "name": "Castanheira Apartament",
-          "description": "Step into a realm of pure enchantment at the Castanheira Apartment, an exceptional apartment nestled in the heart of the ethereal Serra da Estrela. Unveil the secrets of the winter sunsets as the shiny stars takeover and transform ordinary moments into extraordinary memories. At the Castanheira Apartment, the ordinary fades away, and a world of wonder unfurls at your doorstep.",
+          "name": "Castanheiro Apartament",
+          "description": "Step into a realm of pure enchantment at the Castanheiro Apartment, an exceptional apartment nestled in the heart of the ethereal Serra da Estrela. Unveil the secrets of the winter sunsets as the shiny stars takeover and transform ordinary moments into extraordinary memories. At the Castanheiro Apartment, the ordinary fades away, and a world of wonder unfurls at your doorstep.",
           "image": "ex_3.jpg",
-          "link": "castanheira",
+          "link": "castanheiro",
           "buttonLink": "/",
           "available": "False",
           "personNumber": "5",

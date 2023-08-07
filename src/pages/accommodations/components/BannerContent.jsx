@@ -96,7 +96,17 @@ const BannerContent = ({ data }) => {
               {language === "pt" ? "Reserve Online!" : "Book Online!"}
             </Button>
           ) : (
-            <Button color="primary" variant="contained" disabled>
+            <Button
+              color="primary"
+              variant="contained"
+              disabled
+              sx={{
+                ":disabled": {
+                  backgroundColor: "gray",
+                  color: "var(--common-black)",
+                },
+              }}
+            >
               {language === "pt" ? "Indisponível" : "Unavailable"}
             </Button>
           )}

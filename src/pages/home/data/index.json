@@ -9,7 +9,7 @@
       },
       {
         "title": "Venha viver o charme da vila",
-        "text": "Aqui é possível desfrutar de uma diversidade paisagística deslumbrante, locais de beleza e tranquilidade preservados com carinho, e uma conexão íntima com a natureza.",
+        "text": "Em Pleno Coração da Serra da Estrela, com paisagens multicolores e tradições milenares, abre-nos os braços a Vila de Manteigas.",
         "hasImage": false
       }
     ],
@@ -30,12 +30,12 @@
     "accommodations": [
       {
         "title": "Alojamentos Locais",
-        "text": "Ideal para uma escapadela na natureza",
+        "text": "Ideais para uma escapadela na natureza",
         "image": "acc_2.jpg",
         "link": "no need"
       },
       {
-        "title": "Alojamentos de média e longa duração",
+        "title": "Alojamentos para arrendamento de média e longa duração",
         "text": "Para aqueles que não querem deixar nada por explorar",
         "image": "acc_1.jpg",
         "link": "no need"
@@ -101,7 +101,7 @@
       },
       {
         "title": "The charm of village life",
-        "text": "Manteigas is a privileged and unique region located in the heart of the Serra da Estrela Natural Park. Here, you can enjoy stunning landscape diversity, carefully preserved sites of beauty and tranquility, and an intimate connection with nature.",
+        "text": "In the heart of the Serra da Estrela, with multicolored landscapes and millennia-old traditions, the Village of Manteigas welcomes us with open arms.",
         "hasImage": false
       }
     ],
@@ -127,7 +127,7 @@
         "link": "no need"
       },
       {
-        "title": "Medium and Long Term Accommodations",
+        "title": "Medium and Long Term Rental Accommodations",
         "text": "For those who don't want to leave anything unexplored",
         "image": "acc_1.jpg",
         "link": "no need"
