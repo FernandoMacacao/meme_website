@@ -4,7 +4,7 @@ import Slider from "react-slick";
 import "../styles/style.css";
 import { LanguageContext } from "configuration/app-context-manager/LanguageContext";
 
-const images = ["hero_image_1.jpg", "hero_image_2.jpg"];
+const images = ["hero_image_1.jpg", "hero_image_2.jpg", "hero_image_3.jpg"];
 
 export const Hero = () => {
   const { language } = useContext(LanguageContext);
