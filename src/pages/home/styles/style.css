@@ -16,3 +16,11 @@
   overflow: hidden;
   filter: brightness(0.7);
 }
+@media screen and (max-width: 600px) {
+  .slick-slide > div > img {
+    height: 100%;
+    width: 100vw;
+    overflow: hidden;
+    filter: brightness(0.7);
+  }
+}
