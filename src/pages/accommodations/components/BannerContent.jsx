@@ -80,7 +80,7 @@ const BannerContent = ({ data }) => {
               overflow: "hidden",
               display: "-webkit-box",
               WebkitBoxOrient: "vertical",
-              WebkitLineClamp: 3,
+              WebkitLineClamp: 2,
               whiteSpace: "pre-wrap",
             }}
           >

@@ -165,28 +165,96 @@
     },
     "lmtAccommodations": {
       "title": "Alojamentos para arrendamento de Média e Longa duração",
-      "subtitle": "Para aqueles que não querem deixar nada por explorar",
+      "subtitle": "Para aqueles que querem fazer disto o seu dia a dia",
       "accommodations": [
         {
-          "name": "Apartamento Bétula",
-          "description": "Embarque numa serena escapadela no Apartamento Bétula, um oásis escondido no meio da majestosa Serra da Estrela. Este apartamento de médio a longo prazo convida-o a relaxar e reconectar-se com a natureza. Com a sua localização idílica e um conforto sem igual, o Apartamento Bétula promete uma escapadela inesquecível.",
-          "image": "ex_1.jpg",
+          "name": "Apartamento Bétula (T1)",
+          "description": "Apartamento totalmente mobilado. Período mínimo de arrendamento: 6 meses",
+          "image": "betula_1.jpg",
           "link": "betula",
           "buttonLink": "/",
-          "available": "False",
-          "personNumber": "5",
+          "available": "True",
+          "personNumber": "Acomoda até 3 adultos",
           "comodities": {
-            "Cozinha": [],
-            "Sala de estar": [],
-            "Quarto": [],
-            "Casa de banho": [],
-            "Exterior": []
+            "Cozinha": [
+              "Fogão",
+              "Frigorífico",
+              "Micro-ondas",
+              "Torradeira",
+              "Máquina de lavar roupa",
+              "Loiças de cozinha"
+            ],
+            "Sala de estar": [
+              "Ar Condicionado",
+              "Wi-fi",
+              "Televisão (2 TV's)",
+              "Sofá-cama"
+            ],
+            "Quarto": ["Roupas de cama a cargo do arrendador"],
+            "Casa de banho": ["Duche"],
+            "Exterior": ["Estacionamento público gratuito"]
+          }
+        },
+        {
+          "name": "Apartamento Faia (T0)",
+          "description": "Apartamento totalmente mobilado. Período mínimo de arrendamento: 6 meses",
+          "image": "faia_1.jpg",
+          "link": "faia",
+          "buttonLink": "/",
+          "available": "True",
+          "personNumber": "Acomoda até 1 adultos",
+          "comodities": {
+            "Cozinha": [
+              "Fogão",
+              "Frigorífico",
+              "Micro-ondas",
+              "Torradeira",
+              "Máquina de lavar roupa",
+              "Loiças de cozinha"
+            ],
+            "Sala de estar": [
+              "Ar Condicionado",
+              "Wi-fi",
+              "Televisão",
+              "Sofá-cama"
+            ],
+            "Quarto": ["Roupas de cama a cargo do arrendador"],
+            "Casa de banho": ["Duche"],
+            "Exterior": ["Estacionamento público gratuito"]
+          }
+        },
+        {
+          "name": "Apartamento Carvalho (T1)",
+          "description": "Apartamento totalmente mobilado. Período mínimo de arrendamento: 6 meses",
+          "image": "carvalho_1.jpg",
+          "link": "carvalho",
+          "buttonLink": "/",
+          "available": "True",
+          "personNumber": "Acomoda até 2 adultos",
+          "comodities": {
+            "Cozinha": [
+              "Fogão",
+              "Frigorífico",
+              "Micro-ondas",
+              "Torradeira",
+              "Máquina de lavar roupa",
+              "Loiças de cozinha"
+            ],
+            "Sala de estar": [
+              "Ar Condicionado",
+              "Wi-fi",
+              "Televisão",
+              "Sofá-cama"
+            ],
+            "Quarto": ["Roupas de cama a cargo do arrendador"],
+            "Casa de banho": ["Duche"],
+            "Exterior": ["Estacionamento público gratuito"]
           }
         },
         {
           "name": "Apartamento Teixo",
-          "description": "Este apartamento acolhedor é perfeito para estadias de médio prazo, oferecendo um retiro sereno numa localização tão nobre quanto conveniente. Quer esteja à procura de aventuras de inverno ou de verão, o Apartamento Teixo proporciona uma experiência tranquila e confortável. Venha descubrir o encanto desta deliciosa escapadela no coração da Serra da Estrela.",
-          "image": "ex_2.jpg",
+          "description": "Apartamento totalmente mobilado. Período mínimo de arrendamento: 6 meses",
+          "image": "ex_3.jpg",
           "link": "teixo",
           "buttonLink": "/",
           "available": "False",
@@ -200,24 +268,8 @@
           }
         },
         {
-          "name": "Apartamento Castanheiro",
-          "description": "Entre num reino de puro encanto no Apartamento Castanheiro, um apartamento excepcional que tem lugar no coração da etérea Serra da Estrela. Desvende os segredos dos pores do sol de inverno e das noites estreladas, que, assumem o protagonismo e transformam momentos comuns em memórias extraordinárias. No Apartamento Castanheiro, o ordinário desaparece, e um mundo de maravilhas desdobra-se à sua porta.",
-          "image": "ex_3.jpg",
-          "link": "castanheiro",
-          "buttonLink": "/",
-          "available": "False",
-          "personNumber": "5",
-          "comodities": {
-            "Cozinha": [],
-            "Sala de estar": [],
-            "Quarto": [],
-            "Casa de banho": [],
-            "Exterior": []
-          }
-        },
-        {
           "name": "Apartamento Beijames",
-          "description": "Aninhe-se no Apartamento Beijames e testemunhe a inigualável fusão de conforto e aventura que se dá à medida que as noites de inverno se transformam em portais para narrativas imersivas. No verão, liberte o seu explorador interior e embarque em emocionantes caminhadas nas montanhas, regressando ao fim do dia para um merecido descanso.",
+          "description": "Apartamento totalmente mobilado. Período mínimo de arrendamento: 6 meses",
           "image": "ex_3.jpg",
           "link": "beijames",
           "buttonLink": "/",
@@ -384,28 +436,96 @@
     },
     "lmtAccommodations": {
       "title": "Long and Medium Term Rental Accommodations",
-      "subtitle": "For those who don't want to leave anything unexplored",
+      "subtitle": "For those who want this as their day to day life",
       "accommodations": [
         {
-          "name": "Bétula Apartament",
-          "description": "Embark on a serene retreat at the Bétula Apartment, a hidden oasis amidst the majestic Serra da Estrela. This medium to long term apartment beckons you to unwind and reconnect with nature. With its idyllic location and modern comforts, the Bétula Home promises an unforgettable escape, where cherished memories are made.",
-          "image": "ex_1.jpg",
+          "name": "Bétula Apartament (T1)",
+          "description": "Fully furnished apartment. Minimum lease period: 6 months",
+          "image": "betula_1.jpg",
           "link": "betula",
           "buttonLink": "/",
-          "available": "False",
-          "personNumber": "5",
+          "available": "True",
+          "personNumber": "Accommodates up to 3 Adults",
           "comodities": {
-            "Kitchen": [],
-            "LivingRoom": [],
-            "Bedroom": [],
-            "Bathroom": [],
-            "Outside": []
+            "Kitchen": [
+              "Stove",
+              "Refrigerator",
+              "Microwave",
+              "Toaster",
+              "Washing machine",
+              "Kitchen utensils/dishes"
+            ],
+            "LivingRoom": [
+              "Air conditioning",
+              "Wi-Fi",
+              "Television (2 TV's)",
+              "Sofa bed"
+            ],
+            "Bedroom": ["Bed linens are not provided by the landlord"],
+            "Bathroom": ["Shower"],
+            "Outside": ["Free public parking"]
+          }
+        },
+        {
+          "name": "Faia Apartament (T0)",
+          "description": "Fully furnished apartment. Minimum lease period: 6 months",
+          "image": "faia_1.jpg",
+          "link": "faia",
+          "buttonLink": "/",
+          "available": "True",
+          "personNumber": "Accommodates up to 1 Adults",
+          "comodities": {
+            "Kitchen": [
+              "Stove",
+              "Refrigerator",
+              "Microwave",
+              "Toaster",
+              "Washing machine",
+              "Kitchen utensils/dishes"
+            ],
+            "LivingRoom": [
+              "Air conditioning",
+              "Wi-Fi",
+              "Television",
+              "Sofa bed"
+            ],
+            "Bedroom": ["Bed linens are not provided by the landlord"],
+            "Bathroom": ["Shower"],
+            "Outside": ["Free public parking"]
+          }
+        },
+        {
+          "name": "Carvalho Apartament (T1)",
+          "description": "Fully furnished apartment. Minimum lease period: 6 months",
+          "image": "carvalho_1.jpg",
+          "link": "carvalho",
+          "buttonLink": "/",
+          "available": "True",
+          "personNumber": "Accommodates up to 2 Adults",
+          "comodities": {
+            "Kitchen": [
+              "Stove",
+              "Refrigerator",
+              "Microwave",
+              "Toaster",
+              "Washing machine",
+              "Kitchen utensils/dishes"
+            ],
+            "LivingRoom": [
+              "Air conditioning",
+              "Wi-Fi",
+              "Television",
+              "Sofa bed"
+            ],
+            "Bedroom": ["Bed linens are not provided by the landlord"],
+            "Bathroom": ["Shower"],
+            "Outside": ["Free public parking"]
           }
         },
         {
           "name": "Teixo Apartament",
-          "description": "This cozy apartment is perfect for medium-term stays, offering a serene retreat in a convenient location. Whether you're seeking winter or summer adventures, the Teixo Apartment provides a tranquil and comfortable experience. Discover the charm of this delightful getaway in the heart of Serra da Estrela.",
-          "image": "ex_2.jpg",
+          "description": "Fully furnished apartment. Minimum lease period: 6 months",
+          "image": "ex_3.jpg",
           "link": "teixo",
           "buttonLink": "/",
           "available": "False",
@@ -419,24 +539,8 @@
           }
         },
         {
-          "name": "Castanheiro Apartament",
-          "description": "Step into a realm of pure enchantment at the Castanheiro Apartment, an exceptional apartment nestled in the heart of the ethereal Serra da Estrela. Unveil the secrets of the winter sunsets as the shiny stars takeover and transform ordinary moments into extraordinary memories. At the Castanheiro Apartment, the ordinary fades away, and a world of wonder unfurls at your doorstep.",
-          "image": "ex_3.jpg",
-          "link": "castanheiro",
-          "buttonLink": "/",
-          "available": "False",
-          "personNumber": "5",
-          "comodities": {
-            "Kitchen": [],
-            "Living room": [],
-            "Bedroom": [],
-            "Bathroom": [],
-            "Outside": []
-          }
-        },
-        {
           "name": "Beijames Apartament",
-          "description": "Escape to the Beijames Apartment and experience the fusion of comfort and adventure as winter nights become gateways to immersive storytelling and sky sightseeing. In the summer, unleash your inner explorer and embark on thrilling mountain treks, returning to the Beijames Apartment for well-deserved rest.",
+          "description": "Fully furnished apartment. Minimum lease period: 6 months",
           "image": "ex_3.jpg",
           "link": "beijames",
           "buttonLink": "/",
