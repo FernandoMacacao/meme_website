@@ -1,14 +1,21 @@
-import { Box, Button, Typography, useMediaQuery } from "@mui/material";
-import React, { useContext } from "react";
-import Slider from "react-slick";
-import "../styles/style.css";
-import { LanguageContext } from "configuration/app-context-manager/LanguageContext";
+import { Box, Button, Typography, useMediaQuery } from '@mui/material';
+import React, { useContext } from 'react';
+import Slider from 'react-slick';
+import '../styles/style.css';
+import { LanguageContext } from 'configuration/app-context-manager/LanguageContext';
 
-const images = ["hero_image_1.jpg", "hero_image_2.jpg", "hero_image_3.jpg"];
+const images = [
+  'hero_image_1.jpg',
+  'hero_image_2.jpg',
+  'hero_image_3.jpg',
+  'hero_image_4.jpg',
+  'hero_image_5.jpg',
+  'hero_image_6.jpg',
+];
 
 export const Hero = () => {
   const { language } = useContext(LanguageContext);
-  const isMobile = useMediaQuery((theme) => theme.breakpoints.down("md"));
+  const isMobile = useMediaQuery((theme) => theme.breakpoints.down('md'));
 
   const settings = {
     dots: false,
@@ -27,20 +34,20 @@ export const Hero = () => {
       <Box
         width="100%"
         sx={{
-          position: "absolute",
-          top: "50%",
-          left: "50%",
-          transform: "translate(-50%, -50%)",
+          position: 'absolute',
+          top: '50%',
+          left: '50%',
+          transform: 'translate(-50%, -50%)',
           zIndex: 1000,
         }}
       >
         <Typography
-          variant={isMobile ? "h4" : "h2"}
+          variant={isMobile ? 'h4' : 'h2'}
           color="secondary"
           mb={{ md: 3, xs: 1 }}
           sx={{
-            textAlign: "center",
-            textShadow: "0px 0px 3px var(--common-black)",
+            textAlign: 'center',
+            textShadow: '0px 0px 3px var(--common-black)',
           }}
         >
           Casinhas do Mé-Mé
@@ -48,13 +55,13 @@ export const Hero = () => {
         <Button
           href={`accommodations`}
           variant="contained"
-          size={isMobile ? "small" : "large"}
+          size={isMobile ? 'small' : 'large'}
           sx={{
-            left: "50%",
-            transform: "translate(-50%, 0)",
+            left: '50%',
+            transform: 'translate(-50%, 0)',
           }}
         >
-          {language === "pt" ? "Ver Mais!" : "See More!"}
+          {language === 'pt' ? 'Ver Mais!' : 'See More!'}
         </Button>
       </Box>
 
@@ -64,7 +71,7 @@ export const Hero = () => {
             key={id}
             src={require(`../../../assets/images/${image}`)}
             alt="Serra da Estrela"
-            style={{ filter: "brightness(50%)" }}
+            style={{ filter: 'brightness(50%)' }}
           />
         ))}
       </Slider>
